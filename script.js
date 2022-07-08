@@ -69,12 +69,12 @@ if (p1 == "H") {
   
   function greenDotP1() {
     let x1 = document.getElementById("phys").rows[1].cells;
-    x1[1].innerHTML = "🟢";
+    x1[1].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotP1() {
     let x1 = document.getElementById("phys").rows[2].cells;
-    x1[1].innerHTML = "🔴";
+    x1[1].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
   
@@ -86,12 +86,12 @@ if (p2 == "H") {
   
   function greenDotP2() {
     let x2 = document.getElementById("phys").rows[1].cells;
-    x2[2].innerHTML = "🟢";
+    x2[2].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotP2() {
     let x2 = document.getElementById("phys").rows[2].cells;
-    x2[2].innerHTML = "🔴";
+    x2[2].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -104,12 +104,12 @@ if (p3 == "H") {
   
   function greenDotP3() {
     let x3 = document.getElementById("phys").rows[1].cells;
-    x3[3].innerHTML = "🟢";
+    x3[3].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotP3() {
     let x3 = document.getElementById("phys").rows[2].cells;
-    x3[3].innerHTML = "🔴";
+    x3[3].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -124,12 +124,12 @@ if (p3 == "H") {
   
   function greenDotP4() {
     let x4 = document.getElementById("phys").rows[1].cells;
-    x4[4].innerHTML = "🟢";
+    x4[4].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotP4() {
     let x4 = document.getElementById("phys").rows[2].cells;
-    x4[4].innerHTML = "🔴";
+    x4[4].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
   
@@ -141,12 +141,12 @@ if (p5 == "H") {
   
   function greenDotP5() {
     let x5 = document.getElementById("phys").rows[1].cells;
-    x5[5].innerHTML = "🟢";
+    x5[5].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotP5() {
     let x5 = document.getElementById("phys").rows[2].cells;
-    x5[5].innerHTML = "🔴";
+    x5[5].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -162,12 +162,12 @@ if (p6 == "H") {
   
   function greenDotP6() {
     let x6 = document.getElementById("phys").rows[1].cells;
-    x6[6].innerHTML = "🟢";
+    x6[6].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotP6() {
     let x6 = document.getElementById("phys").rows[2].cells;
-    x6[6].innerHTML = "🔴";
+    x6[6].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -182,12 +182,12 @@ if (p7 == "H") {
 
 function greenDotP7() {
   let x7 = document.getElementById("phys").rows[1].cells;
-  x7[7].innerHTML = "🟢";
+  x7[7].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP7() {
   let x7 = document.getElementById("phys").rows[2].cells;
-  x7[7].innerHTML = "🔴";
+  x7[7].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -199,12 +199,12 @@ if (p8 == "H") {
 
 function greenDotP8() {
   let x8 = document.getElementById("phys").rows[1].cells;
-  x8[8].innerHTML = "🟢";
+  x8[8].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP8() {
   let x8 = document.getElementById("phys").rows[2].cells;
-  x8[8].innerHTML = "🔴";
+  x8[8].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -219,12 +219,12 @@ if (p9 == "H") {
 
 function greenDotP9() {
   let x9 = document.getElementById("phys").rows[1].cells;
-  x9[9].innerHTML = "🟢";
+  x9[9].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP9() {
   let x9 = document.getElementById("phys").rows[2].cells;
-  x9[9].innerHTML = "🔴";
+  x9[9].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -237,12 +237,12 @@ if (p10 == "H") {
 
 function greenDotP10() {
   let x10 = document.getElementById("phys").rows[1].cells;
-  x10[10].innerHTML = "🟢";
+  x10[10].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP10() {
   let x10 = document.getElementById("phys").rows[2].cells;
-  x10[10].innerHTML = "🔴";
+  x10[10].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -255,12 +255,12 @@ if (p11 == "H") {
 
 function greenDotP11() {
   let x11 = document.getElementById("phys").rows[1].cells;
-  x11[11].innerHTML = "🟢";
+  x11[11].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP11() {
   let x11 = document.getElementById("phys").rows[2].cells;
-  x11[11].innerHTML = "🔴";
+  x11[11].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -274,12 +274,12 @@ if (p12 == "H") {
 
 function greenDotP12() {
   let x12 = document.getElementById("phys").rows[1].cells;
-  x12[12].innerHTML = "🟢";
+  x12[12].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP12() {
   let x12 = document.getElementById("phys").rows[2].cells;
-  x12[12].innerHTML = "🔴";
+  x12[12].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -293,12 +293,12 @@ if (p13 == "H") {
 
 function greenDotP13() {
   let x13 = document.getElementById("phys").rows[1].cells;
-  x13[13].innerHTML = "🟢";
+  x13[13].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP13() {
   let x13 = document.getElementById("phys").rows[2].cells;
-  x13[13].innerHTML = "🔴";
+  x13[13].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -312,12 +312,12 @@ if (p14 == "H") {
 
 function greenDotP14() {
   let x14 = document.getElementById("phys").rows[1].cells;
-  x14[14].innerHTML = "🟢";
+  x14[14].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP14() {
   let x14 = document.getElementById("phys").rows[2].cells;
-  x14[14].innerHTML = "🔴";
+  x14[14].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -330,12 +330,12 @@ if (p15 == "H") {
 
 function greenDotP15() {
   let x15 = document.getElementById("phys").rows[1].cells;
-  x15[15].innerHTML = "🟢";
+  x15[15].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP15() {
   let x15 = document.getElementById("phys").rows[2].cells;
-  x15[15].innerHTML = "🔴";
+  x15[15].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -349,12 +349,12 @@ if (p16 == "H") {
 
 function greenDotP16() {
   let x16 = document.getElementById("phys").rows[1].cells;
-  x16[16].innerHTML = "🟢";
+  x16[16].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP16() {
   let x16 = document.getElementById("phys").rows[2].cells;
-  x16[16].innerHTML = "🔴";
+  x16[16].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -368,12 +368,12 @@ if (p17 == "H") {
 
 function greenDotP17() {
   let x17 = document.getElementById("phys").rows[1].cells;
-  x17[17].innerHTML = "🟢";
+  x17[17].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP17() {
   let x17 = document.getElementById("phys").rows[2].cells;
-  x17[17].innerHTML = "🔴";
+  x17[17].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -386,12 +386,12 @@ if (p18 == "H") {
 
 function greenDotP18() {
   let x18 = document.getElementById("phys").rows[1].cells;
-  x18[18].innerHTML = "🟢";
+  x18[18].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP18() {
   let x18 = document.getElementById("phys").rows[2].cells;
-  x18[18].innerHTML = "🔴";
+  x18[18].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -404,12 +404,12 @@ if (p19 == "H") {
 
 function greenDotP19() {
   let x19 = document.getElementById("phys").rows[1].cells;
-  x19[19].innerHTML = "🟢";
+  x19[19].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP19() {
   let x19 = document.getElementById("phys").rows[2].cells;
-  x19[19].innerHTML = "🔴";
+  x19[19].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -422,12 +422,12 @@ if (p20 == "H") {
 
 function greenDotP20() {
   let x20 = document.getElementById("phys").rows[1].cells;
-  x20[20].innerHTML = "🟢";
+  x20[20].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP20() {
   let x20 = document.getElementById("phys").rows[2].cells;
-  x20[20].innerHTML = "🔴";
+  x20[20].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -440,12 +440,12 @@ if (p21 == "H") {
 
 function greenDotP21() {
   let x21 = document.getElementById("phys").rows[1].cells;
-  x21[21].innerHTML = "🟢";
+  x21[21].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP21() {
   let x21 = document.getElementById("phys").rows[2].cells;
-  x21[21].innerHTML = "🔴";
+  x21[21].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -460,12 +460,12 @@ if (p22 == "H") {
 
 function greenDotP22() {
   let x22 = document.getElementById("phys").rows[1].cells;
-  x22[22].innerHTML = "🟢";
+  x22[22].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP22() {
   let x22 = document.getElementById("phys").rows[2].cells;
-  x22[22].innerHTML = "🔴";
+  x22[22].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -479,12 +479,12 @@ if (p23 == "H") {
 
 function greenDotP23() {
   let x23 = document.getElementById("phys").rows[1].cells;
-  x23[23].innerHTML = "🟢";
+  x23[23].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP23() {
   let x23 = document.getElementById("phys").rows[2].cells;
-  x23[23].innerHTML = "🔴";
+  x23[23].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -497,12 +497,12 @@ if (p24 == "H") {
 
 function greenDotP24() {
   let x24 = document.getElementById("phys").rows[1].cells;
-  x24[24].innerHTML = "🟢";
+  x24[24].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP24() {
   let x24 = document.getElementById("phys").rows[2].cells;
-  x24[24].innerHTML = "🔴";
+  x24[24].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -515,12 +515,12 @@ if (p25 == "H") {
 
 function greenDotP25() {
   let x25 = document.getElementById("phys").rows[1].cells;
-  x25[25].innerHTML = "🟢";
+  x25[25].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP25() {
   let x25 = document.getElementById("phys").rows[2].cells;
-  x25[25].innerHTML = "🔴";
+  x25[25].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -534,12 +534,12 @@ if (p26 == "H") {
 
 function greenDotP26() {
   let x26 = document.getElementById("phys").rows[1].cells;
-  x26[26].innerHTML = "🟢";
+  x26[26].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP26() {
   let x26 = document.getElementById("phys").rows[2].cells;
-  x26[26].innerHTML = "🔴";
+  x26[26].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -553,12 +553,12 @@ if (p27 == "H") {
 
 function greenDotP27() {
   let x27 = document.getElementById("phys").rows[1].cells;
-  x27[27].innerHTML = "🟢";
+  x27[27].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP27() {
   let x27 = document.getElementById("phys").rows[2].cells;
-  x27[27].innerHTML = "🔴";
+  x27[27].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -572,12 +572,12 @@ if (p28 == "H") {
 
 function greenDotP28() {
   let x28 = document.getElementById("phys").rows[1].cells;
-  x28[28].innerHTML = "🟢";
+  x28[28].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP28() {
   let x28 = document.getElementById("phys").rows[2].cells;
-  x28[28].innerHTML = "🔴";
+  x28[28].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -591,12 +591,12 @@ if (p29 == "H") {
 
 function greenDotP29() {
   let x29 = document.getElementById("phys").rows[1].cells;
-  x29[29].innerHTML = "🟢";
+  x29[29].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP29() {
   let x29 = document.getElementById("phys").rows[2].cells;
-  x29[29].innerHTML = "🔴";
+  x29[29].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -610,12 +610,12 @@ if (p30 == "H") {
 
 function greenDotP30() {
   let x30 = document.getElementById("phys").rows[1].cells;
-  x30[30].innerHTML = "🟢";
+  x30[30].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP30() {
   let x30 = document.getElementById("phys").rows[2].cells;
-  x30[30].innerHTML = "🔴";
+  x30[30].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -629,12 +629,12 @@ if (p31 == "H") {
 
 function greenDotP31() {
   let x31 = document.getElementById("phys").rows[1].cells;
-  x31[31].innerHTML = "🟢";
+  x31[31].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP31() {
   let x31 = document.getElementById("phys").rows[2].cells;
-  x31[31].innerHTML = "🔴";
+  x31[31].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -648,12 +648,12 @@ if (p32 == "H") {
 
 function greenDotP32() {
   let x32 = document.getElementById("phys").rows[1].cells;
-  x32[32].innerHTML = "🟢";
+  x32[32].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP32() {
   let x32 = document.getElementById("phys").rows[2].cells;
-  x32[32].innerHTML = "🔴";
+  x32[32].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -668,12 +668,12 @@ if (p33 == "H") {
 
 function greenDotP33() {
   let x33 = document.getElementById("phys").rows[1].cells;
-  x33[33].innerHTML = "🟢";
+  x33[33].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP33() {
   let x33 = document.getElementById("phys").rows[2].cells;
-  x33[33].innerHTML = "🔴";
+  x33[33].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -688,12 +688,12 @@ if (p34 == "H") {
 
 function greenDotP34() {
   let x34 = document.getElementById("phys").rows[1].cells;
-  x34[34].innerHTML = "🟢";
+  x34[34].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP34() {
   let x34 = document.getElementById("phys").rows[2].cells;
-  x34[34].innerHTML = "🔴";
+  x34[34].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -708,12 +708,12 @@ if (p35 == "H") {
 
 function greenDotP35() {
   let x35 = document.getElementById("phys").rows[1].cells;
-  x35[35].innerHTML = "🟢";
+  x35[35].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP35() {
   let x35 = document.getElementById("phys").rows[2].cells;
-  x35[35].innerHTML = "🔴";
+  x35[35].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -727,12 +727,12 @@ if (p36 == "H") {
 
 function greenDotP36() {
   let x36 = document.getElementById("phys").rows[1].cells;
-  x36[36].innerHTML = "🟢";
+  x36[36].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP36() {
   let x36 = document.getElementById("phys").rows[2].cells;
-  x36[36].innerHTML = "🔴";
+  x36[36].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -747,12 +747,12 @@ if (p37 == "H") {
 
 function greenDotP37() {
   let x37 = document.getElementById("phys").rows[1].cells;
-  x37[37].innerHTML = "🟢";
+  x37[37].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP37() {
   let x37 = document.getElementById("phys").rows[2].cells;
-  x37[37].innerHTML = "🔴";
+  x37[37].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -766,12 +766,12 @@ if (p38 == "H") {
 
 function greenDotP38() {
   let x38 = document.getElementById("phys").rows[1].cells;
-  x38[38].innerHTML = "🟢";
+  x38[38].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP38() {
   let x38 = document.getElementById("phys").rows[2].cells;
-  x38[38].innerHTML = "🔴";
+  x38[38].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -785,12 +785,12 @@ if (p39 == "H") {
 
 function greenDotP39() {
   let x39 = document.getElementById("phys").rows[1].cells;
-  x39[39].innerHTML = "🟢";
+  x39[39].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP39() {
   let x39 = document.getElementById("phys").rows[2].cells;
-  x39[39].innerHTML = "🔴";
+  x39[39].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -803,12 +803,12 @@ if (p40 == "H") {
 
 function greenDotP40() {
   let x40 = document.getElementById("phys").rows[1].cells;
-  x40[40].innerHTML = "🟢";
+  x40[40].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP40() {
   let x40 = document.getElementById("phys").rows[2].cells;
-  x40[40].innerHTML = "🔴";
+  x40[40].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -822,12 +822,12 @@ if (p41 == "H") {
 
 function greenDotP41() {
   let x41 = document.getElementById("phys").rows[1].cells;
-  x41[41].innerHTML = "🟢";
+  x41[41].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP41() {
   let x41 = document.getElementById("phys").rows[2].cells;
-  x41[41].innerHTML = "🔴";
+  x41[41].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -841,12 +841,12 @@ if (p42== "H") {
 
 function greenDotP42() {
   let x42 = document.getElementById("phys").rows[1].cells;
-  x42[42].innerHTML = "🟢";
+  x42[42].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP42() {
   let x42 = document.getElementById("phys").rows[2].cells;
-  x42[42].innerHTML = "🔴";
+  x42[42].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -860,12 +860,12 @@ if (p43 == "H") {
 
 function greenDotP43() {
   let x43 = document.getElementById("phys").rows[1].cells;
-  x43[43].innerHTML = "🟢";
+  x43[43].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP43() {
   let x43 = document.getElementById("phys").rows[2].cells;
-  x43[43].innerHTML = "🔴";
+  x43[43].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -879,12 +879,12 @@ if (p44 == "H") {
 
 function greenDotP44() {
   let x44 = document.getElementById("phys").rows[1].cells;
-  x44[44].innerHTML = "🟢";
+  x44[44].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP44() {
   let x44 = document.getElementById("phys").rows[2].cells;
-  x44[44].innerHTML = "🔴";
+  x44[44].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -897,12 +897,12 @@ if (p45 == "H") {
 
 function greenDotP45() {
   let x45 = document.getElementById("phys").rows[1].cells;
-  x45[45].innerHTML = "🟢";
+  x45[45].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP45() {
   let x45 = document.getElementById("phys").rows[2].cells;
-  x45[45].innerHTML = "🔴";
+  x45[45].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -915,12 +915,12 @@ if (p46 == "H") {
 
 function greenDotP46() {
   let x46 = document.getElementById("phys").rows[1].cells;
-  x46[46].innerHTML = "🟢";
+  x46[46].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP46() {
   let x46 = document.getElementById("phys").rows[2].cells;
-  x46[46].innerHTML = "🔴";
+  x46[46].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -933,12 +933,12 @@ if (p47 == "H") {
 
 function greenDotP47() {
   let x47 = document.getElementById("phys").rows[1].cells;
-  x47[47].innerHTML = "🟢";
+  x47[47].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP47() {
   let x47 = document.getElementById("phys").rows[2].cells;
-  x47[47].innerHTML = "🔴";
+  x47[47].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -951,12 +951,12 @@ if (p48 == "H") {
 
 function greenDotP48() {
   let x48 = document.getElementById("phys").rows[1].cells;
-  x48[48].innerHTML = "🟢";
+  x48[48].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP48() {
   let x48 = document.getElementById("phys").rows[2].cells;
-  x48[48].innerHTML = "🔴";
+  x48[48].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -970,12 +970,12 @@ if (p49 == "H") {
 
 function greenDotP49() {
   let x49 = document.getElementById("phys").rows[1].cells;
-  x49[49].innerHTML = "🟢";
+  x49[49].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP49() {
   let x49 = document.getElementById("phys").rows[2].cells;
-  x49[49].innerHTML = "🔴";
+  x49[49].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -989,12 +989,12 @@ if (p50 == "H") {
 
 function greenDotP50() {
   let x50 = document.getElementById("phys").rows[1].cells;
-  x50[50].innerHTML = "🟢";
+  x50[50].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP50() {
   let x50 = document.getElementById("phys").rows[2].cells;
-  x50[50].innerHTML = "🔴";
+  x50[50].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1007,12 +1007,12 @@ if (p51 == "H") {
 
 function greenDotP51() {
   let x51 = document.getElementById("phys").rows[1].cells;
-  x51[51].innerHTML = "🟢";
+  x51[51].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP51() {
   let x51 = document.getElementById("phys").rows[2].cells;
-  x51[51].innerHTML = "🔴";
+  x51[51].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1026,12 +1026,12 @@ if (p52 == "H") {
 
 function greenDotP52() {
   let x52 = document.getElementById("phys").rows[1].cells;
-  x52[52].innerHTML = "🟢";
+  x52[52].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotP52() {
   let x52 = document.getElementById("phys").rows[2].cells;
-  x52[52].innerHTML = "🔴";
+  x52[52].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1100,12 +1100,12 @@ if (l1 == "H") {
   
   function greenDotL1() {
     let x1 = document.getElementById("learn").rows[1].cells;
-    x1[1].innerHTML = "🟢";
+    x1[1].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotL1() {
     let x1 = document.getElementById("learn").rows[2].cells;
-    x1[1].innerHTML = "🔴";
+    x1[1].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
   
@@ -1117,12 +1117,12 @@ if (l2 == "H") {
   
   function greenDotL2() {
     let x2 = document.getElementById("learn").rows[1].cells;
-    x2[2].innerHTML = "🟢";
+    x2[2].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotL2() {
     let x2 = document.getElementById("learn").rows[2].cells;
-    x2[2].innerHTML = "🔴";
+    x2[2].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -1135,12 +1135,12 @@ if (l3 == "H") {
   
   function greenDotL3() {
     let x3 = document.getElementById("learn").rows[1].cells;
-    x3[3].innerHTML = "🟢";
+    x3[3].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotL3() {
     let x3 = document.getElementById("learn").rows[2].cells;
-    x3[3].innerHTML = "🔴";
+    x3[3].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -1154,12 +1154,12 @@ if (l4 == "H") {
 
 function greenDotL4() {
   let x4 = document.getElementById("learn").rows[1].cells;
-  x4[4].innerHTML = "🟢";
+  x4[4].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL4() {
   let x4 = document.getElementById("learn").rows[2].cells;
-  x4[4].innerHTML = "🔴";
+  x4[4].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1171,12 +1171,12 @@ if (l5 == "H") {
 
 function greenDotL5() {
   let x5 = document.getElementById("learn").rows[1].cells;
-  x5[5].innerHTML = "🟢";
+  x5[5].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL5() {
   let x5 = document.getElementById("learn").rows[2].cells;
-  x5[5].innerHTML = "🔴";
+  x5[5].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1189,12 +1189,12 @@ if (l6 == "H") {
 
 function greenDotL6() {
   let x6 = document.getElementById("learn").rows[1].cells;
-  x6[6].innerHTML = "🟢";
+  x6[6].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL6() {
   let x6 = document.getElementById("learn").rows[2].cells;
-  x6[6].innerHTML = "🔴";
+  x6[6].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1208,12 +1208,12 @@ if (l7 == "H") {
 
 function greenDotL7() {
   let x7 = document.getElementById("learn").rows[1].cells;
-  x7[7].innerHTML = "🟢";
+  x7[7].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL7() {
   let x7 = document.getElementById("learn").rows[2].cells;
-  x7[7].innerHTML = "🔴";
+  x7[7].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1227,12 +1227,12 @@ if (l8 == "H") {
 
 function greenDotL8() {
   let x8 = document.getElementById("learn").rows[1].cells;
-  x8[8].innerHTML = "🟢";
+  x8[8].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL8() {
   let x8 = document.getElementById("learn").rows[2].cells;
-  x8[8].innerHTML = "🔴";
+  x8[8].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1245,12 +1245,12 @@ if (l9 == "H") {
 
 function greenDotL9() {
   let x9 = document.getElementById("learn").rows[1].cells;
-  x9[9].innerHTML = "🟢";
+  x9[9].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL9() {
   let x9 = document.getElementById("learn").rows[2].cells;
-  x9[9].innerHTML = "🔴";
+  x9[9].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 if (l10 == "H") {
@@ -1261,12 +1261,12 @@ if (l10 == "H") {
 
 function greenDotL10() {
   let x10 = document.getElementById("learn").rows[1].cells;
-  x10[10].innerHTML = "🟢";
+  x10[10].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL10() {
   let x10 = document.getElementById("learn").rows[2].cells;
-  x10[10].innerHTML = "🔴";
+  x10[10].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1280,12 +1280,12 @@ if (l11 == "H") {
 
 function greenDotL11() {
   let x11 = document.getElementById("learn").rows[1].cells;
-  x11[11].innerHTML = "🟢";
+  x11[11].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL11() {
   let x11 = document.getElementById("learn").rows[2].cells;
-  x11[11].innerHTML = "🔴";
+  x11[11].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1299,12 +1299,12 @@ if (l12 == "H") {
 
 function greenDotL12() {
   let x12 = document.getElementById("learn").rows[1].cells;
-  x12[12].innerHTML = "🟢";
+  x12[12].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL12() {
   let x12 = document.getElementById("learn").rows[2].cells;
-  x12[12].innerHTML = "🔴";
+  x12[12].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1319,12 +1319,12 @@ if (l13 == "H") {
 
 function greenDotL13() {
   let x13 = document.getElementById("learn").rows[1].cells;
-  x13[13].innerHTML = "🟢";
+  x13[13].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL13() {
   let x13 = document.getElementById("learn").rows[2].cells;
-  x13[13].innerHTML = "🔴";
+  x13[13].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1338,12 +1338,12 @@ if (l14 == "H") {
 
 function greenDotL14() {
   let x14 = document.getElementById("learn").rows[1].cells;
-  x14[14].innerHTML = "🟢";
+  x14[14].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL14() {
   let x14 = document.getElementById("learn").rows[2].cells;
-  x14[14].innerHTML = "🔴";
+  x14[14].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1357,12 +1357,12 @@ if (l15 == "H") {
 
 function greenDotL15() {
   let x15 = document.getElementById("learn").rows[1].cells;
-  x15[15].innerHTML = "🟢";
+  x15[15].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL15() {
   let x15 = document.getElementById("learn").rows[2].cells;
-  x15[15].innerHTML = "🔴";
+  x15[15].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1376,12 +1376,12 @@ if (l16 == "H") {
 
 function greenDotL16() {
   let x16 = document.getElementById("learn").rows[1].cells;
-  x16[16].innerHTML = "🟢";
+  x16[16].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL16() {
   let x16 = document.getElementById("learn").rows[2].cells;
-  x16[16].innerHTML = "🔴";
+  x16[16].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1395,12 +1395,12 @@ if (l17 == "H") {
 
 function greenDotL17() {
   let x17 = document.getElementById("learn").rows[1].cells;
-  x17[17].innerHTML = "🟢";
+  x17[17].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL17() {
   let x17 = document.getElementById("learn").rows[2].cells;
-  x17[17].innerHTML = "🔴";
+  x17[17].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1414,12 +1414,12 @@ if (l18 == "H") {
 
 function greenDotL18() {
   let x18 = document.getElementById("learn").rows[1].cells;
-  x18[18].innerHTML = "🟢";
+  x18[18].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL18() {
   let x18 = document.getElementById("learn").rows[2].cells;
-  x18[18].innerHTML = "🔴";
+  x18[18].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1433,12 +1433,12 @@ if (l19 == "H") {
 
 function greenDotL19() {
   let x19 = document.getElementById("learn").rows[1].cells;
-  x19[19].innerHTML = "🟢";
+  x19[19].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL19() {
   let x19 = document.getElementById("learn").rows[2].cells;
-  x19[19].innerHTML = "🔴";
+  x19[19].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1452,12 +1452,12 @@ if (l20 == "H") {
 
 function greenDotL20() {
   let x20 = document.getElementById("learn").rows[1].cells;
-  x20[20].innerHTML = "🟢";
+  x20[20].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL20() {
   let x20 = document.getElementById("learn").rows[2].cells;
-  x20[20].innerHTML = "🔴";
+  x20[20].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1470,12 +1470,12 @@ if (l21 == "H") {
 
 function greenDotL21() {
   let x21 = document.getElementById("learn").rows[1].cells;
-  x21[21].innerHTML = "🟢";
+  x21[21].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL21() {
   let x21 = document.getElementById("learn").rows[2].cells;
-  x21[21].innerHTML = "🔴";
+  x21[21].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1487,12 +1487,12 @@ if (l22 == "H") {
 
 function greenDotL22() {
   let x22 = document.getElementById("learn").rows[1].cells;
-  x22[22].innerHTML = "🟢";
+  x22[22].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL22() {
   let x22 = document.getElementById("learn").rows[2].cells;
-  x22[22].innerHTML = "🔴";
+  x22[22].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1506,12 +1506,12 @@ if (l23 == "H") {
 
 function greenDotL23() {
   let x23 = document.getElementById("learn").rows[1].cells;
-  x23[23].innerHTML = "🟢";
+  x23[23].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL23() {
   let x23 = document.getElementById("learn").rows[2].cells;
-  x23[23].innerHTML = "🔴";
+  x23[23].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1525,12 +1525,12 @@ if (l24 == "H") {
 
 function greenDotL24() {
   let x24 = document.getElementById("learn").rows[1].cells;
-  x24[24].innerHTML = "🟢";
+  x24[24].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL24() {
   let x24 = document.getElementById("learn").rows[2].cells;
-  x24[24].innerHTML = "🔴";
+  x24[24].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1544,12 +1544,12 @@ if (l25 == "H") {
 
 function greenDotL25() {
   let x25 = document.getElementById("learn").rows[1].cells;
-  x25[25].innerHTML = "🟢";
+  x25[25].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL25() {
   let x25 = document.getElementById("learn").rows[2].cells;
-  x25[25].innerHTML = "🔴";
+  x25[25].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1562,12 +1562,12 @@ if (l26 == "H") {
 
 function greenDotL26() {
   let x26 = document.getElementById("learn").rows[1].cells;
-  x26[26].innerHTML = "🟢";
+  x26[26].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL26() {
   let x26 = document.getElementById("learn").rows[2].cells;
-  x26[26].innerHTML = "🔴";
+  x26[26].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1581,12 +1581,12 @@ if (l27 == "H") {
 
 function greenDotL27() {
   let x27 = document.getElementById("learn").rows[1].cells;
-  x27[27].innerHTML = "🟢";
+  x27[27].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL27() {
   let x27 = document.getElementById("learn").rows[2].cells;
-  x27[27].innerHTML = "🔴";
+  x27[27].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1600,12 +1600,12 @@ if (l28 == "H") {
 
 function greenDotL28() {
   let x28 = document.getElementById("learn").rows[1].cells;
-  x28[28].innerHTML = "🟢";
+  x28[28].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL28() {
   let x28 = document.getElementById("learn").rows[2].cells;
-  x28[28].innerHTML = "🔴";
+  x28[28].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1618,12 +1618,12 @@ if (l29 == "H") {
 
 function greenDotL29() {
   let x29 = document.getElementById("learn").rows[1].cells;
-  x29[29].innerHTML = "🟢";
+  x29[29].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL29() {
   let x29 = document.getElementById("learn").rows[2].cells;
-  x29[29].innerHTML = "🔴";
+  x29[29].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1637,12 +1637,12 @@ if (l30 == "H") {
 
 function greenDotL30() {
   let x30 = document.getElementById("learn").rows[1].cells;
-  x30[30].innerHTML = "🟢";
+  x30[30].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL30() {
   let x30 = document.getElementById("learn").rows[2].cells;
-  x30[30].innerHTML = "🔴";
+  x30[30].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1655,12 +1655,12 @@ if (l31 == "H") {
 
 function greenDotL31() {
   let x31 = document.getElementById("learn").rows[1].cells;
-  x31[31].innerHTML = "🟢";
+  x31[31].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL31() {
   let x31 = document.getElementById("learn").rows[2].cells;
-  x31[31].innerHTML = "🔴";
+  x31[31].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1673,12 +1673,12 @@ if (l32 == "H") {
 
 function greenDotL32() {
   let x32 = document.getElementById("learn").rows[1].cells;
-  x32[32].innerHTML = "🟢";
+  x32[32].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL32() {
   let x32 = document.getElementById("learn").rows[2].cells;
-  x32[32].innerHTML = "🔴";
+  x32[32].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1692,12 +1692,12 @@ if (l33 == "H") {
 
 function greenDotL33() {
   let x33 = document.getElementById("learn").rows[1].cells;
-  x33[33].innerHTML = "🟢";
+  x33[33].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL33() {
   let x33 = document.getElementById("learn").rows[2].cells;
-  x33[33].innerHTML = "🔴";
+  x33[33].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1710,12 +1710,12 @@ if (l34 == "H") {
 
 function greenDotL34() {
   let x34 = document.getElementById("learn").rows[1].cells;
-  x34[34].innerHTML = "🟢";
+  x34[34].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL34() {
   let x34 = document.getElementById("learn").rows[2].cells;
-  x34[34].innerHTML = "🔴";
+  x34[34].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1727,12 +1727,12 @@ if (l35 == "H") {
 
 function greenDotL35() {
   let x35 = document.getElementById("learn").rows[1].cells;
-  x35[35].innerHTML = "🟢";
+  x35[35].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL35() {
   let x35 = document.getElementById("learn").rows[2].cells;
-  x35[35].innerHTML = "🔴";
+  x35[35].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1745,12 +1745,12 @@ if (l36 == "H") {
 
 function greenDotL36() {
   let x36 = document.getElementById("learn").rows[1].cells;
-  x36[36].innerHTML = "🟢";
+  x36[36].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL36() {
   let x36 = document.getElementById("learn").rows[2].cells;
-  x36[36].innerHTML = "🔴";
+  x36[36].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1763,12 +1763,12 @@ if (l37 == "H") {
 
 function greenDotL37() {
   let x37 = document.getElementById("learn").rows[1].cells;
-  x37[37].innerHTML = "🟢";
+  x37[37].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL37() {
   let x37 = document.getElementById("learn").rows[2].cells;
-  x37[37].innerHTML = "🔴";
+  x37[37].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1781,12 +1781,12 @@ if (l38 == "H") {
 
 function greenDotL38() {
   let x38 = document.getElementById("learn").rows[1].cells;
-  x38[38].innerHTML = "🟢";
+  x38[38].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL38() {
   let x38 = document.getElementById("learn").rows[2].cells;
-  x38[38].innerHTML = "🔴";
+  x38[38].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1799,12 +1799,12 @@ if (l39 == "H") {
 
 function greenDotL39() {
   let x39 = document.getElementById("learn").rows[1].cells;
-  x39[39].innerHTML = "🟢";
+  x39[39].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL39() {
   let x39 = document.getElementById("learn").rows[2].cells;
-  x39[39].innerHTML = "🔴";
+  x39[39].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1817,12 +1817,12 @@ if (l40 == "H") {
 
 function greenDotL40() {
   let x40 = document.getElementById("learn").rows[1].cells;
-  x40[40].innerHTML = "🟢";
+  x40[40].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL40() {
   let x40 = document.getElementById("learn").rows[2].cells;
-  x40[40].innerHTML = "🔴";
+  x40[40].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1835,12 +1835,12 @@ if (l41 == "H") {
 
 function greenDotL41() {
   let x41 = document.getElementById("learn").rows[1].cells;
-  x41[41].innerHTML = "🟢";
+  x41[41].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL41() {
   let x41 = document.getElementById("learn").rows[2].cells;
-  x41[41].innerHTML = "🔴";
+  x41[41].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1855,12 +1855,12 @@ if (l42 == "H") {
 
 function greenDotL42() {
   let x42 = document.getElementById("learn").rows[1].cells;
-  x42[42].innerHTML = "🟢";
+  x42[42].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL42() {
   let x42 = document.getElementById("learn").rows[2].cells;
-  x42[42].innerHTML = "🔴";
+  x42[42].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1874,12 +1874,12 @@ if (l43 == "H") {
 
 function greenDotL43() {
   let x43 = document.getElementById("learn").rows[1].cells;
-  x43[43].innerHTML = "🟢";
+  x43[43].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL43() {
   let x43 = document.getElementById("learn").rows[2].cells;
-  x43[43].innerHTML = "🔴";
+  x43[43].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1893,12 +1893,12 @@ if (l44 == "H") {
 
 function greenDotL44() {
   let x44 = document.getElementById("learn").rows[1].cells;
-  x44[44].innerHTML = "🟢";
+  x44[44].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL44() {
   let x44 = document.getElementById("learn").rows[2].cells;
-  x44[44].innerHTML = "🔴";
+  x44[44].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1912,12 +1912,12 @@ if (l45 == "H") {
 
 function greenDotL45() {
   let x45 = document.getElementById("learn").rows[1].cells;
-  x45[45].innerHTML = "🟢";
+  x45[45].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL45() {
   let x45 = document.getElementById("learn").rows[2].cells;
-  x45[45].innerHTML = "🔴";
+  x45[45].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1931,12 +1931,12 @@ if (l46 == "H") {
 
 function greenDotL46() {
   let x46 = document.getElementById("learn").rows[1].cells;
-  x46[46].innerHTML = "🟢";
+  x46[46].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL46() {
   let x46 = document.getElementById("learn").rows[2].cells;
-  x46[46].innerHTML = "🔴";
+  x46[46].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1951,12 +1951,12 @@ if (l47 == "H") {
 
 function greenDotL47() {
   let x47 = document.getElementById("learn").rows[1].cells;
-  x47[47].innerHTML = "🟢";
+  x47[47].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL47() {
   let x47 = document.getElementById("learn").rows[2].cells;
-  x47[47].innerHTML = "🔴";
+  x47[47].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1970,12 +1970,12 @@ if (l48 == "H") {
 
 function greenDotL48() {
   let x48 = document.getElementById("learn").rows[1].cells;
-  x48[48].innerHTML = "🟢";
+  x48[48].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL48() {
   let x48 = document.getElementById("learn").rows[2].cells;
-  x48[48].innerHTML = "🔴";
+  x48[48].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -1989,12 +1989,12 @@ if (l49 == "H") {
 
 function greenDotL49() {
   let x49 = document.getElementById("learn").rows[1].cells;
-  x49[49].innerHTML = "🟢";
+  x49[49].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL49() {
   let x49 = document.getElementById("learn").rows[2].cells;
-  x49[49].innerHTML = "🔴";
+  x49[49].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2009,12 +2009,12 @@ if (l50 == "H") {
 
 function greenDotL50() {
   let x50 = document.getElementById("learn").rows[1].cells;
-  x50[50].innerHTML = "🟢";
+  x50[50].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL50() {
   let x50 = document.getElementById("learn").rows[2].cells;
-  x50[50].innerHTML = "🔴";
+  x50[50].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2028,12 +2028,12 @@ if (l51 == "H") {
 
 function greenDotL51() {
   let x51 = document.getElementById("learn").rows[1].cells;
-  x51[51].innerHTML = "🟢";
+  x51[51].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL51() {
   let x51 = document.getElementById("learn").rows[2].cells;
-  x51[51].innerHTML = "🔴";
+  x51[51].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2046,12 +2046,12 @@ if (l52 == "H") {
 
 function greenDotL52() {
   let x52 = document.getElementById("learn").rows[1].cells;
-  x52[52].innerHTML = "🟢";
+  x52[52].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotL52() {
   let x52 = document.getElementById("learn").rows[2].cells;
-  x52[52].innerHTML = "🔴";
+  x52[52].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2122,12 +2122,12 @@ if (w1 == "H") {
 
 function greenDotW1() {
   let x1 = document.getElementById("weigh").rows[1].cells;
-  x1[1].innerHTML = "🟢";
+  x1[1].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW1() {
   let x1 = document.getElementById("weigh").rows[2].cells;
-  x1[1].innerHTML = "🔴";
+  x1[1].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2139,12 +2139,12 @@ if (w2 == "H") {
 
 function greenDotW2() {
   let x2 = document.getElementById("weigh").rows[1].cells;
-  x2[2].innerHTML = "🟢";
+  x2[2].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW2() {
   let x2 = document.getElementById("weigh").rows[2].cells;
-  x2[2].innerHTML = "🔴";
+  x2[2].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2157,12 +2157,12 @@ if (w3 == "H") {
 
 function greenDotW3() {
   let x3 = document.getElementById("weigh").rows[1].cells;
-  x3[3].innerHTML = "🟢";
+  x3[3].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW3() {
   let x3 = document.getElementById("weigh").rows[2].cells;
-  x3[3].innerHTML = "🔴";
+  x3[3].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2176,12 +2176,12 @@ redDotW4();
 
 function greenDotW4() {
 let x4 = document.getElementById("weigh").rows[1].cells;
-x4[4].innerHTML = "🟢";
+x4[4].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW4() {
 let x4 = document.getElementById("weigh").rows[2].cells;
-x4[4].innerHTML = "🔴";
+x4[4].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2194,12 +2194,12 @@ redDotW5();
 
 function greenDotW5() {
 let x5 = document.getElementById("weigh").rows[1].cells;
-x5[5].innerHTML = "🟢";
+x5[5].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW5() {
 let x5 = document.getElementById("weigh").rows[2].cells;
-x5[5].innerHTML = "🔴";
+x5[5].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2212,12 +2212,12 @@ redDotW6();
 
 function greenDotW6() {
 let x6 = document.getElementById("weigh").rows[1].cells;
-x6[6].innerHTML = "🟢";
+x6[6].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW6() {
 let x6 = document.getElementById("weigh").rows[2].cells;
-x6[6].innerHTML = "🔴";
+x6[6].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2230,12 +2230,12 @@ redDotW7();
 
 function greenDotW7() {
 let x7 = document.getElementById("weigh").rows[1].cells;
-x7[7].innerHTML = "🟢";
+x7[7].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW7() {
 let x7 = document.getElementById("weigh").rows[2].cells;
-x7[7].innerHTML = "🔴";
+x7[7].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2248,12 +2248,12 @@ redDotW8();
 
 function greenDotW8() {
 let x8 = document.getElementById("weigh").rows[1].cells;
-x8[8].innerHTML = "🟢";
+x8[8].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW8() {
 let x8 = document.getElementById("weigh").rows[2].cells;
-x8[8].innerHTML = "🔴";
+x8[8].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2266,12 +2266,12 @@ redDotW9();
 
 function greenDotW9() {
 let x9 = document.getElementById("weigh").rows[1].cells;
-x9[9].innerHTML = "🟢";
+x9[9].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW9() {
 let x9 = document.getElementById("weigh").rows[2].cells;
-x9[9].innerHTML = "🔴";
+x9[9].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2284,12 +2284,12 @@ redDotW10();
 
 function greenDotW10() {
 let x10 = document.getElementById("weigh").rows[1].cells;
-x10[10].innerHTML = "🟢";
+x10[10].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW10() {
 let x10 = document.getElementById("weigh").rows[2].cells;
-x10[10].innerHTML = "🔴";
+x10[10].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2303,12 +2303,12 @@ redDotW11();
 
 function greenDotW11() {
 let x11 = document.getElementById("weigh").rows[1].cells;
-x11[11].innerHTML = "🟢";
+x11[11].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW11() {
 let x11 = document.getElementById("weigh").rows[2].cells;
-x11[11].innerHTML = "🔴";
+x11[11].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2322,12 +2322,12 @@ redDotW12();
 
 function greenDotW12() {
 let x12 = document.getElementById("weigh").rows[1].cells;
-x12[12].innerHTML = "🟢";
+x12[12].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW12() {
 let x12 = document.getElementById("weigh").rows[2].cells;
-x12[12].innerHTML = "🔴";
+x12[12].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2341,12 +2341,12 @@ redDotW13();
 
 function greenDotW13() {
 let x13 = document.getElementById("weigh").rows[1].cells;
-x13[13].innerHTML = "🟢";
+x13[13].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW13() {
 let x13 = document.getElementById("weigh").rows[2].cells;
-x13[13].innerHTML = "🔴";
+x13[13].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2360,12 +2360,12 @@ redDotW14();
 
 function greenDotW14() {
 let x14 = document.getElementById("weigh").rows[1].cells;
-x14[14].innerHTML = "🟢";
+x14[14].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW14() {
 let x14 = document.getElementById("weigh").rows[2].cells;
-x14[14].innerHTML = "🔴";
+x14[14].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2379,12 +2379,12 @@ redDotW15();
 
 function greenDotW15() {
 let x15 = document.getElementById("weigh").rows[1].cells;
-x15[15].innerHTML = "🟢";
+x15[15].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW15() {
 let x15 = document.getElementById("weigh").rows[2].cells;
-x15[15].innerHTML = "🔴";
+x15[15].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2399,12 +2399,12 @@ redDotW16();
 
 function greenDotW16() {
 let x16 = document.getElementById("weigh").rows[1].cells;
-x16[16].innerHTML = "🟢";
+x16[16].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW16() {
 let x16 = document.getElementById("weigh").rows[2].cells;
-x16[16].innerHTML = "🔴";
+x16[16].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2418,12 +2418,12 @@ redDotW17();
 
 function greenDotW17() {
 let x17 = document.getElementById("weigh").rows[1].cells;
-x17[17].innerHTML = "🟢";
+x17[17].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW17() {
 let x17 = document.getElementById("weigh").rows[2].cells;
-x17[17].innerHTML = "🔴";
+x17[17].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2437,12 +2437,12 @@ redDotW18();
 
 function greenDotW18() {
 let x18 = document.getElementById("weigh").rows[1].cells;
-x18[18].innerHTML = "🟢";
+x18[18].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW18() {
 let x18 = document.getElementById("weigh").rows[2].cells;
-x18[18].innerHTML = "🔴";
+x18[18].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2456,12 +2456,12 @@ redDotW19();
 
 function greenDotW19() {
 let x19 = document.getElementById("weigh").rows[1].cells;
-x19[19].innerHTML = "🟢";
+x19[19].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW19() {
 let x19 = document.getElementById("weigh").rows[2].cells;
-x19[19].innerHTML = "🔴";
+x19[19].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2475,12 +2475,12 @@ redDotW20();
 
 function greenDotW20() {
 let x20 = document.getElementById("weigh").rows[1].cells;
-x20[20].innerHTML = "🟢";
+x20[20].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW20() {
 let x20 = document.getElementById("weigh").rows[2].cells;
-x20[20].innerHTML = "🔴";
+x20[20].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2494,12 +2494,12 @@ redDotW21();
 
 function greenDotW21() {
 let x21 = document.getElementById("weigh").rows[1].cells;
-x21[21].innerHTML = "🟢";
+x21[21].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW21() {
 let x21 = document.getElementById("weigh").rows[2].cells;
-x21[21].innerHTML = "🔴";
+x21[21].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2512,12 +2512,12 @@ redDotW22();
 
 function greenDotW22() {
 let x22 = document.getElementById("weigh").rows[1].cells;
-x22[22].innerHTML = "🟢";
+x22[22].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW22() {
 let x22 = document.getElementById("weigh").rows[2].cells;
-x22[22].innerHTML = "🔴";
+x22[22].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2531,12 +2531,12 @@ redDotW23();
 
 function greenDotW23() {
 let x23 = document.getElementById("weigh").rows[1].cells;
-x23[23].innerHTML = "🟢";
+x23[23].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW23() {
 let x23 = document.getElementById("weigh").rows[2].cells;
-x23[23].innerHTML = "🔴";
+x23[23].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2549,12 +2549,12 @@ redDotW24();
 
 function greenDotW24() {
 let x24 = document.getElementById("weigh").rows[1].cells;
-x24[24].innerHTML = "🟢";
+x24[24].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW24() {
 let x24 = document.getElementById("weigh").rows[2].cells;
-x24[24].innerHTML = "🔴";
+x24[24].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2567,12 +2567,12 @@ redDotW25();
 
 function greenDotW25() {
 let x25 = document.getElementById("weigh").rows[1].cells;
-x25[25].innerHTML = "🟢";
+x25[25].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW25() {
 let x25 = document.getElementById("weigh").rows[2].cells;
-x25[25].innerHTML = "🔴";
+x25[25].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2585,12 +2585,12 @@ redDotW26();
 
 function greenDotW26() {
 let x26 = document.getElementById("weigh").rows[1].cells;
-x26[26].innerHTML = "🟢";
+x26[26].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW26() {
 let x26 = document.getElementById("weigh").rows[2].cells;
-x26[26].innerHTML = "🔴";
+x26[26].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2603,12 +2603,12 @@ redDotW27();
 
 function greenDotW27() {
 let x27 = document.getElementById("weigh").rows[1].cells;
-x27[27].innerHTML = "🟢";
+x27[27].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW27() {
 let x27 = document.getElementById("weigh").rows[2].cells;
-x27[27].innerHTML = "🔴";
+x27[27].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2621,12 +2621,12 @@ redDotW28();
 
 function greenDotW28() {
 let x28 = document.getElementById("weigh").rows[1].cells;
-x28[28].innerHTML = "🟢";
+x28[28].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW28() {
 let x28 = document.getElementById("weigh").rows[2].cells;
-x28[28].innerHTML = "🔴";
+x28[28].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2639,12 +2639,12 @@ redDotW29();
 
 function greenDotW29() {
 let x29 = document.getElementById("weigh").rows[1].cells;
-x29[29].innerHTML = "🟢";
+x29[29].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW29() {
 let x29 = document.getElementById("weigh").rows[2].cells;
-x29[29].innerHTML = "🔴";
+x29[29].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2657,12 +2657,12 @@ redDotW30();
 
 function greenDotW30() {
 let x30 = document.getElementById("weigh").rows[1].cells;
-x30[30].innerHTML = "🟢";
+x30[30].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW30() {
 let x30 = document.getElementById("weigh").rows[2].cells;
-x30[30].innerHTML = "🔴";
+x30[30].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2675,12 +2675,12 @@ redDotW31();
 
 function greenDotW31() {
 let x31 = document.getElementById("weigh").rows[1].cells;
-x31[31].innerHTML = "🟢";
+x31[31].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW31() {
 let x31 = document.getElementById("weigh").rows[2].cells;
-x31[31].innerHTML = "🔴";
+x31[31].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2693,12 +2693,12 @@ redDotW32();
 
 function greenDotW32() {
 let x32 = document.getElementById("weigh").rows[1].cells;
-x32[32].innerHTML = "🟢";
+x32[32].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW32() {
 let x32 = document.getElementById("weigh").rows[2].cells;
-x32[32].innerHTML = "🔴";
+x32[32].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2712,12 +2712,12 @@ redDotW33();
 
 function greenDotW33() {
 let x33 = document.getElementById("weigh").rows[1].cells;
-x33[33].innerHTML = "🟢";
+x33[33].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW33() {
 let x33 = document.getElementById("weigh").rows[2].cells;
-x33[33].innerHTML = "🔴";
+x33[33].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2730,12 +2730,12 @@ redDotW34();
 
 function greenDotW34() {
 let x34 = document.getElementById("weigh").rows[1].cells;
-x34[34].innerHTML = "🟢";
+x34[34].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW34() {
 let x34 = document.getElementById("weigh").rows[2].cells;
-x34[34].innerHTML = "🔴";
+x34[34].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2748,12 +2748,12 @@ redDotW35();
 
 function greenDotW35() {
 let x35 = document.getElementById("weigh").rows[1].cells;
-x35[35].innerHTML = "🟢";
+x35[35].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW35() {
 let x35 = document.getElementById("weigh").rows[2].cells;
-x35[35].innerHTML = "🔴";
+x35[35].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2766,12 +2766,12 @@ redDotW36();
 
 function greenDotW36() {
 let x36 = document.getElementById("weigh").rows[1].cells;
-x36[36].innerHTML = "🟢";
+x36[36].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW36() {
 let x36 = document.getElementById("weigh").rows[2].cells;
-x36[36].innerHTML = "🔴";
+x36[36].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2784,12 +2784,12 @@ redDotW37();
 
 function greenDotW37() {
 let x37 = document.getElementById("weigh").rows[1].cells;
-x37[37].innerHTML = "🟢";
+x37[37].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW37() {
 let x37 = document.getElementById("weigh").rows[2].cells;
-x37[37].innerHTML = "🔴";
+x37[37].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2802,12 +2802,12 @@ redDotW38();
 
 function greenDotW38() {
 let x38 = document.getElementById("weigh").rows[1].cells;
-x38[38].innerHTML = "🟢";
+x38[38].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW38() {
 let x38 = document.getElementById("weigh").rows[2].cells;
-x38[38].innerHTML = "🔴";
+x38[38].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2820,12 +2820,12 @@ redDotW39();
 
 function greenDotW39() {
 let x39 = document.getElementById("weigh").rows[1].cells;
-x39[39].innerHTML = "🟢";
+x39[39].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW39() {
 let x39 = document.getElementById("weigh").rows[2].cells;
-x39[39].innerHTML = "🔴";
+x39[39].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2837,12 +2837,12 @@ redDotW40();
 
 function greenDotW40() {
 let x40 = document.getElementById("weigh").rows[1].cells;
-x40[40].innerHTML = "🟢";
+x40[40].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW40() {
 let x40 = document.getElementById("weigh").rows[2].cells;
-x40[40].innerHTML = "🔴";
+x40[40].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2855,12 +2855,12 @@ redDotW41();
 
 function greenDotW41() {
 let x41 = document.getElementById("weigh").rows[1].cells;
-x41[41].innerHTML = "🟢";
+x41[41].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW41() {
 let x41 = document.getElementById("weigh").rows[2].cells;
-x41[41].innerHTML = "🔴";
+x41[41].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2874,12 +2874,12 @@ redDotW42();
 
 function greenDotW42() {
 let x42 = document.getElementById("weigh").rows[1].cells;
-x42[42].innerHTML = "🟢";
+x42[42].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW42() {
 let x42 = document.getElementById("weigh").rows[2].cells;
-x42[42].innerHTML = "🔴";
+x42[42].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2893,12 +2893,12 @@ redDotW43();
 
 function greenDotW43() {
 let x43 = document.getElementById("weigh").rows[1].cells;
-x43[43].innerHTML = "🟢";
+x43[43].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW43() {
 let x43 = document.getElementById("weigh").rows[2].cells;
-x43[43].innerHTML = "🔴";
+x43[43].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2914,12 +2914,12 @@ redDotW44();
 
 function greenDotW44() {
 let x44 = document.getElementById("weigh").rows[1].cells;
-x44[44].innerHTML = "🟢";
+x44[44].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW44() {
 let x44 = document.getElementById("weigh").rows[2].cells;
-x44[44].innerHTML = "🔴";
+x44[44].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2934,12 +2934,12 @@ redDotW45();
 
 function greenDotW45() {
 let x45 = document.getElementById("weigh").rows[1].cells;
-x45[45].innerHTML = "🟢";
+x45[45].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW45() {
 let x45 = document.getElementById("weigh").rows[2].cells;
-x45[45].innerHTML = "🔴";
+x45[45].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2953,12 +2953,12 @@ redDotW46();
 
 function greenDotW46() {
 let x46 = document.getElementById("weigh").rows[1].cells;
-x46[46].innerHTML = "🟢";
+x46[46].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW46() {
 let x46 = document.getElementById("weigh").rows[2].cells;
-x46[46].innerHTML = "🔴";
+x46[46].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2972,12 +2972,12 @@ redDotW47();
 
 function greenDotW47() {
 let x47 = document.getElementById("weigh").rows[1].cells;
-x47[47].innerHTML = "🟢";
+x47[47].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW47() {
 let x47 = document.getElementById("weigh").rows[2].cells;
-x47[47].innerHTML = "🔴";
+x47[47].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -2991,12 +2991,12 @@ redDotW48();
 
 function greenDotW48() {
 let x48 = document.getElementById("weigh").rows[1].cells;
-x48[48].innerHTML = "🟢";
+x48[48].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW48() {
 let x48 = document.getElementById("weigh").rows[2].cells;
-x48[48].innerHTML = "🔴";
+x48[48].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -3010,12 +3010,12 @@ redDotW49();
 
 function greenDotW49() {
 let x49 = document.getElementById("weigh").rows[1].cells;
-x49[49].innerHTML = "🟢";
+x49[49].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW49() {
 let x49 = document.getElementById("weigh").rows[2].cells;
-x49[49].innerHTML = "🔴";
+x49[49].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -3029,12 +3029,12 @@ redDotW50();
 
 function greenDotW50() {
 let x50 = document.getElementById("weigh").rows[1].cells;
-x50[50].innerHTML = "🟢";
+x50[50].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW50() {
 let x50 = document.getElementById("weigh").rows[2].cells;
-x50[50].innerHTML = "🔴";
+x50[50].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -3048,12 +3048,12 @@ if (w51 == "H") {
 
 function greenDotW51() {
   let x51 = document.getElementById("weigh").rows[1].cells;
-  x51[51].innerHTML = "🟢";
+  x51[51].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW51() {
   let x51 = document.getElementById("weigh").rows[2].cells;
-  x51[51].innerHTML = "🔴";
+  x51[51].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -3065,12 +3065,12 @@ if (w52 == "H") {
 
 function greenDotW52() {
   let x52 = document.getElementById("weigh").rows[1].cells;
-  x52[52].innerHTML = "🟢";
+  x52[52].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
 }
 
 function redDotW52() {
   let x52 = document.getElementById("weigh").rows[2].cells;
-  x52[52].innerHTML = "🔴";
+  x52[52].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
 }
 
 
@@ -3139,12 +3139,12 @@ if (c1 == "H") {
   
   function greenDotC1() {
     let x1 = document.getElementById("comm").rows[1].cells;
-    x1[1].innerHTML = "🟢";
+    x1[1].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC1() {
     let x1 = document.getElementById("comm").rows[2].cells;
-    x1[1].innerHTML = "🔴";
+    x1[1].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
   
@@ -3156,12 +3156,12 @@ if (c2 == "H") {
   
   function greenDotC2() {
     let x2 = document.getElementById("comm").rows[1].cells;
-    x2[2].innerHTML = "🟢";
+    x2[2].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC2() {
     let x2 = document.getElementById("comm").rows[2].cells;
-    x2[2].innerHTML = "🔴";
+    x2[2].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3174,12 +3174,12 @@ if (c3 == "H") {
   
   function greenDotC3() {
     let x3 = document.getElementById("comm").rows[1].cells;
-    x3[3].innerHTML = "🟢";
+    x3[3].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC3() {
     let x3 = document.getElementById("comm").rows[2].cells;
-    x3[3].innerHTML = "🔴";
+    x3[3].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3192,12 +3192,12 @@ if (c3 == "H") {
   
   function greenDotC4() {
     let x4 = document.getElementById("comm").rows[1].cells;
-    x4[4].innerHTML = "🟢";
+    x4[4].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC4() {
     let x4 = document.getElementById("comm").rows[2].cells;
-    x4[4].innerHTML = "🔴";
+    x4[4].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
   
@@ -3209,12 +3209,12 @@ if (c5 == "H") {
   
   function greenDotC5() {
     let x5 = document.getElementById("comm").rows[1].cells;
-    x5[5].innerHTML = "🟢";
+    x5[5].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC5() {
     let x5 = document.getElementById("comm").rows[2].cells;
-    x5[5].innerHTML = "🔴";
+    x5[5].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3227,12 +3227,12 @@ if (c6 == "H") {
   
   function greenDotC6() {
     let x6 = document.getElementById("comm").rows[1].cells;
-    x6[6].innerHTML = "🟢";
+    x6[6].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC6() {
     let x6 = document.getElementById("comm").rows[2].cells;
-    x6[6].innerHTML = "🔴";
+    x6[6].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
       
@@ -3244,12 +3244,12 @@ if (c7 == "H") {
   
   function greenDotC7() {
     let x7 = document.getElementById("comm").rows[1].cells;
-    x7[7].innerHTML = "🟢";
+    x7[7].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC7() {
     let x7 = document.getElementById("comm").rows[2].cells;
-    x7[7].innerHTML = "🔴";
+    x7[7].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3262,12 +3262,12 @@ if (c8 == "H") {
   
   function greenDotC8() {
     let x8 = document.getElementById("comm").rows[1].cells;
-    x8[8].innerHTML = "🟢";
+    x8[8].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC8() {
     let x8 = document.getElementById("comm").rows[2].cells;
-    x8[8].innerHTML = "🔴";
+    x8[8].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3280,12 +3280,12 @@ if (c9 == "H") {
   
   function greenDotC9() {
     let x9 = document.getElementById("comm").rows[1].cells;
-    x9[9].innerHTML = "🟢";
+    x9[9].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC9() {
     let x9 = document.getElementById("comm").rows[2].cells;
-    x9[9].innerHTML = "🔴";
+    x9[9].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3298,12 +3298,12 @@ if (c9 == "H") {
   
   function greenDotC10() {
     let x10 = document.getElementById("comm").rows[1].cells;
-    x10[10].innerHTML = "🟢";
+    x10[10].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC10() {
     let x10 = document.getElementById("comm").rows[2].cells;
-    x10[10].innerHTML = "🔴";
+    x10[10].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3316,12 +3316,12 @@ if (c9 == "H") {
   
   function greenDotC11() {
     let x11 = document.getElementById("comm").rows[1].cells;
-    x11[11].innerHTML = "🟢";
+    x11[11].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC11() {
     let x11 = document.getElementById("comm").rows[2].cells;
-    x11[11].innerHTML = "🔴";
+    x11[11].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3333,12 +3333,12 @@ if (c9 == "H") {
   
   function greenDotC12() {
     let x12 = document.getElementById("comm").rows[1].cells;
-    x12[12].innerHTML = "🟢";
+    x12[12].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC12() {
     let x12 = document.getElementById("comm").rows[2].cells;
-    x12[12].innerHTML = "🔴";
+    x12[12].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3350,12 +3350,12 @@ if (c9 == "H") {
   
   function greenDotC13() {
     let x13 = document.getElementById("comm").rows[1].cells;
-    x13[13].innerHTML = "🟢";
+    x13[13].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC13() {
     let x13 = document.getElementById("comm").rows[2].cells;
-    x13[13].innerHTML = "🔴";
+    x13[13].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3368,12 +3368,12 @@ if (c9 == "H") {
   
   function greenDotC14() {
     let x14 = document.getElementById("comm").rows[1].cells;
-    x14[14].innerHTML = "🟢";
+    x14[14].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC14() {
     let x14 = document.getElementById("comm").rows[2].cells;
-    x14[14].innerHTML = "🔴";
+    x14[14].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3386,12 +3386,12 @@ if (c9 == "H") {
   
   function greenDotC15() {
     let x15 = document.getElementById("comm").rows[1].cells;
-    x15[15].innerHTML = "🟢";
+    x15[15].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC15() {
     let x15 = document.getElementById("comm").rows[2].cells;
-    x15[15].innerHTML = "🔴";
+    x15[15].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3404,12 +3404,12 @@ if (c9 == "H") {
   
   function greenDotC16() {
     let x16 = document.getElementById("comm").rows[1].cells;
-    x16[16].innerHTML = "🟢";
+    x16[16].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC16() {
     let x16 = document.getElementById("comm").rows[2].cells;
-    x16[16].innerHTML = "🔴";
+    x16[16].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3421,12 +3421,12 @@ if (c9 == "H") {
   
   function greenDotC17() {
     let x17 = document.getElementById("comm").rows[1].cells;
-    x17[17].innerHTML = "🟢";
+    x17[17].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC17() {
     let x17 = document.getElementById("comm").rows[2].cells;
-    x17[17].innerHTML = "🔴";
+    x17[17].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3440,12 +3440,12 @@ if (c9 == "H") {
   
   function greenDotC18() {
     let x18 = document.getElementById("comm").rows[1].cells;
-    x18[18].innerHTML = "🟢";
+    x18[18].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC18() {
     let x18 = document.getElementById("comm").rows[2].cells;
-    x18[18].innerHTML = "🔴";
+    x18[18].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3458,12 +3458,12 @@ if (c9 == "H") {
   
   function greenDotC19() {
     let x19 = document.getElementById("comm").rows[1].cells;
-    x19[19].innerHTML = "🟢";
+    x19[19].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC19() {
     let x19 = document.getElementById("comm").rows[2].cells;
-    x19[19].innerHTML = "🔴";
+    x19[19].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3476,12 +3476,12 @@ if (c9 == "H") {
   
   function greenDotC20() {
     let x20 = document.getElementById("comm").rows[1].cells;
-    x20[20].innerHTML = "🟢";
+    x20[20].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC20() {
     let x20 = document.getElementById("comm").rows[2].cells;
-    x20[20].innerHTML = "🔴";
+    x20[20].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3494,12 +3494,12 @@ if (c9 == "H") {
   
   function greenDotC21() {
     let x21 = document.getElementById("comm").rows[1].cells;
-    x21[21].innerHTML = "🟢";
+    x21[21].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC21() {
     let x21 = document.getElementById("comm").rows[2].cells;
-    x21[21].innerHTML = "🔴";
+    x21[21].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3512,12 +3512,12 @@ if (c9 == "H") {
   
   function greenDotC22() {
     let x22 = document.getElementById("comm").rows[1].cells;
-    x22[22].innerHTML = "🟢";
+    x22[22].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC22() {
     let x22 = document.getElementById("comm").rows[2].cells;
-    x22[22].innerHTML = "🔴";
+    x22[22].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3530,12 +3530,12 @@ if (c9 == "H") {
   
   function greenDotC23() {
     let x23 = document.getElementById("comm").rows[1].cells;
-    x23[23].innerHTML = "🟢";
+    x23[23].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC23() {
     let x23 = document.getElementById("comm").rows[2].cells;
-    x23[23].innerHTML = "🔴";
+    x23[23].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3548,12 +3548,12 @@ if (c9 == "H") {
   
   function greenDotC24() {
     let x24 = document.getElementById("comm").rows[1].cells;
-    x24[24].innerHTML = "🟢";
+    x24[24].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC24() {
     let x24 = document.getElementById("comm").rows[2].cells;
-    x24[24].innerHTML = "🔴";
+    x24[24].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3567,12 +3567,12 @@ if (c9 == "H") {
   
   function greenDotC25() {
     let x25 = document.getElementById("comm").rows[1].cells;
-    x25[25].innerHTML = "🟢";
+    x25[25].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC25() {
     let x25 = document.getElementById("comm").rows[2].cells;
-    x25[25].innerHTML = "🔴";
+    x25[25].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3586,12 +3586,12 @@ if (c9 == "H") {
   
   function greenDotC26() {
     let x26 = document.getElementById("comm").rows[1].cells;
-    x26[26].innerHTML = "🟢";
+    x26[26].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC26() {
     let x26 = document.getElementById("comm").rows[2].cells;
-    x26[26].innerHTML = "🔴";
+    x26[26].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3604,12 +3604,12 @@ if (c9 == "H") {
   
   function greenDotC27() {
     let x27 = document.getElementById("comm").rows[1].cells;
-    x27[27].innerHTML = "🟢";
+    x27[27].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC27() {
     let x27 = document.getElementById("comm").rows[2].cells;
-    x27[27].innerHTML = "🔴";
+    x27[27].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3622,12 +3622,12 @@ if (c9 == "H") {
   
   function greenDotC28() {
     let x28 = document.getElementById("comm").rows[1].cells;
-    x28[28].innerHTML = "🟢";
+    x28[28].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC28() {
     let x28 = document.getElementById("comm").rows[2].cells;
-    x28[28].innerHTML = "🔴";
+    x28[28].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3640,12 +3640,12 @@ if (c9 == "H") {
   
   function greenDotC29() {
     let x29 = document.getElementById("comm").rows[1].cells;
-    x29[29].innerHTML = "🟢";
+    x29[29].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC29() {
     let x29 = document.getElementById("comm").rows[2].cells;
-    x29[29].innerHTML = "🔴";
+    x29[29].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3658,12 +3658,12 @@ if (c9 == "H") {
   
   function greenDotC30() {
     let x30 = document.getElementById("comm").rows[1].cells;
-    x30[30].innerHTML = "🟢";
+    x30[30].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC30() {
     let x30 = document.getElementById("comm").rows[2].cells;
-    x30[30].innerHTML = "🔴";
+    x30[30].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3677,12 +3677,12 @@ if (c9 == "H") {
   
   function greenDotC31() {
     let x31 = document.getElementById("comm").rows[1].cells;
-    x31[31].innerHTML = "🟢";
+    x31[31].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC31() {
     let x31 = document.getElementById("comm").rows[2].cells;
-    x31[31].innerHTML = "🔴";
+    x31[31].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3696,12 +3696,12 @@ if (c9 == "H") {
   
   function greenDotC32() {
     let x32 = document.getElementById("comm").rows[1].cells;
-    x32[32].innerHTML = "🟢";
+    x32[32].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC32() {
     let x32 = document.getElementById("comm").rows[2].cells;
-    x32[32].innerHTML = "🔴";
+    x32[32].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3714,12 +3714,12 @@ if (c9 == "H") {
   
   function greenDotC33() {
     let x33 = document.getElementById("comm").rows[1].cells;
-    x33[33].innerHTML = "🟢";
+    x33[33].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC33() {
     let x33 = document.getElementById("comm").rows[2].cells;
-    x33[33].innerHTML = "🔴";
+    x33[33].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3732,12 +3732,12 @@ if (c9 == "H") {
   
   function greenDotC34() {
     let x34 = document.getElementById("comm").rows[1].cells;
-    x34[34].innerHTML = "🟢";
+    x34[34].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC34() {
     let x34 = document.getElementById("comm").rows[2].cells;
-    x34[34].innerHTML = "🔴";
+    x34[34].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3750,12 +3750,12 @@ if (c9 == "H") {
   
   function greenDotC35() {
     let x35 = document.getElementById("comm").rows[1].cells;
-    x35[35].innerHTML = "🟢";
+    x35[35].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC35() {
     let x35 = document.getElementById("comm").rows[2].cells;
-    x35[35].innerHTML = "🔴";
+    x35[35].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3768,12 +3768,12 @@ if (c9 == "H") {
   
   function greenDotC36() {
     let x36 = document.getElementById("comm").rows[1].cells;
-    x36[36].innerHTML = "🟢";
+    x36[36].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC36() {
     let x36 = document.getElementById("comm").rows[2].cells;
-    x36[36].innerHTML = "🔴";
+    x36[36].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3786,12 +3786,12 @@ if (c9 == "H") {
   
   function greenDotC37() {
     let x37 = document.getElementById("comm").rows[1].cells;
-    x37[37].innerHTML = "🟢";
+    x37[37].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC37() {
     let x37 = document.getElementById("comm").rows[2].cells;
-    x37[37].innerHTML = "🔴";
+    x37[37].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3804,12 +3804,12 @@ if (c9 == "H") {
   
   function greenDotC38() {
     let x38 = document.getElementById("comm").rows[1].cells;
-    x38[38].innerHTML = "🟢";
+    x38[38].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC38() {
     let x38 = document.getElementById("comm").rows[2].cells;
-    x38[38].innerHTML = "🔴";
+    x38[38].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3822,12 +3822,12 @@ if (c9 == "H") {
   
   function greenDotC39() {
     let x39 = document.getElementById("comm").rows[1].cells;
-    x39[39].innerHTML = "🟢";
+    x39[39].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC39() {
     let x39 = document.getElementById("comm").rows[2].cells;
-    x39[39].innerHTML = "🔴";
+    x39[39].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3840,12 +3840,12 @@ if (c9 == "H") {
   
   function greenDotC40() {
     let x40 = document.getElementById("comm").rows[1].cells;
-    x40[40].innerHTML = "🟢";
+    x40[40].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC40() {
     let x40 = document.getElementById("comm").rows[2].cells;
-    x40[40].innerHTML = "🔴";
+    x40[40].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3858,12 +3858,12 @@ if (c9 == "H") {
   
   function greenDotC41() {
     let x41 = document.getElementById("comm").rows[1].cells;
-    x41[41].innerHTML = "🟢";
+    x41[41].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC41() {
     let x41 = document.getElementById("comm").rows[2].cells;
-    x41[41].innerHTML = "🔴";
+    x41[41].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3876,12 +3876,12 @@ if (c9 == "H") {
   
   function greenDotC42() {
     let x42 = document.getElementById("comm").rows[1].cells;
-    x42[42].innerHTML = "🟢";
+    x42[42].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC42() {
     let x42 = document.getElementById("comm").rows[2].cells;
-    x42[42].innerHTML = "🔴";
+    x42[42].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3895,12 +3895,12 @@ if (c9 == "H") {
   
   function greenDotC43() {
     let x43 = document.getElementById("comm").rows[1].cells;
-    x43[43].innerHTML = "🟢";
+    x43[43].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC43() {
     let x43 = document.getElementById("comm").rows[2].cells;
-    x43[43].innerHTML = "🔴";
+    x43[43].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3912,12 +3912,12 @@ if (c9 == "H") {
   
   function greenDotC44() {
     let x44 = document.getElementById("comm").rows[1].cells;
-    x44[44].innerHTML = "🟢";
+    x44[44].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC44() {
     let x44 = document.getElementById("comm").rows[2].cells;
-    x44[44].innerHTML = "🔴";
+    x44[44].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3930,12 +3930,12 @@ if (c9 == "H") {
   
   function greenDotC45() {
     let x45 = document.getElementById("comm").rows[1].cells;
-    x45[45].innerHTML = "🟢";
+    x45[45].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC45() {
     let x45 = document.getElementById("comm").rows[2].cells;
-    x45[45].innerHTML = "🔴";
+    x45[45].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3948,12 +3948,12 @@ if (c9 == "H") {
   
   function greenDotC46() {
     let x46 = document.getElementById("comm").rows[1].cells;
-    x46[46].innerHTML = "🟢";
+    x46[46].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC46() {
     let x46 = document.getElementById("comm").rows[2].cells;
-    x46[46].innerHTML = "🔴";
+    x46[46].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3966,12 +3966,12 @@ if (c9 == "H") {
   
   function greenDotC47() {
     let x47 = document.getElementById("comm").rows[1].cells;
-    x47[47].innerHTML = "🟢";
+    x47[47].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC47() {
     let x47 = document.getElementById("comm").rows[2].cells;
-    x47[47].innerHTML = "🔴";
+    x47[47].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -3985,12 +3985,12 @@ if (c9 == "H") {
   
   function greenDotC48() {
     let x48 = document.getElementById("comm").rows[1].cells;
-    x48[48].innerHTML = "🟢";
+    x48[48].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC48() {
     let x48 = document.getElementById("comm").rows[2].cells;
-    x48[48].innerHTML = "🔴";
+    x48[48].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -4003,12 +4003,12 @@ if (c9 == "H") {
   
   function greenDotC49() {
     let x49 = document.getElementById("comm").rows[1].cells;
-    x49[49].innerHTML = "🟢";
+    x49[49].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC49() {
     let x49 = document.getElementById("comm").rows[2].cells;
-    x49[49].innerHTML = "🔴";
+    x49[49].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -4021,12 +4021,12 @@ if (c9 == "H") {
   
   function greenDotC50() {
     let x50 = document.getElementById("comm").rows[1].cells;
-    x50[50].innerHTML = "🟢";
+    x50[50].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC50() {
     let x50 = document.getElementById("comm").rows[2].cells;
-    x50[50].innerHTML = "🔴";
+    x50[50].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -4039,12 +4039,12 @@ if (c9 == "H") {
   
   function greenDotC51() {
     let x51 = document.getElementById("comm").rows[1].cells;
-    x51[51].innerHTML = "🟢";
+    x51[51].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC51() {
     let x51 = document.getElementById("comm").rows[2].cells;
-    x51[51].innerHTML = "🔴";
+    x51[51].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -4058,12 +4058,12 @@ if (c9 == "H") {
   
   function greenDotC52() {
     let x52 = document.getElementById("comm").rows[1].cells;
-    x52[52].innerHTML = "🟢";
+    x52[52].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redDotC52() {
     let x52 = document.getElementById("comm").rows[2].cells;
-    x52[52].innerHTML = "🔴";
+    x52[52].innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -4099,12 +4099,12 @@ if (c9 == "H") {
   
   function greenP() {
     let p = document.getElementById("p_dot");
-    p.innerHTML = "🟢";
+    p.innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redP() {
     let p = document.getElementById("p_dot");
-    p.innerHTML = "🔴";
+    p.innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -4118,12 +4118,12 @@ if (c9 == "H") {
   
   function greenW() {
     let w = document.getElementById("w_dot");
-    w.innerHTML = "🟢";
+    w.innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redW() {
     let w = document.getElementById("w_dot");
-    w.innerHTML = "🔴";
+    w.innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -4139,12 +4139,12 @@ if (c9 == "H") {
   
   function greenL() {
     let l = document.getElementById("l_dot");
-    l.innerHTML = "🟢";
+    l.innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redL() {
     let l = document.getElementById("l_dot");
-    l.innerHTML = "🔴";
+    l.innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
 
 
@@ -4160,11 +4160,10 @@ if (c9 == "H") {
   
   function greenC() {
     let c = document.getElementById("c_dot");
-    c.innerHTML = "🟢";
+    c.innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=00b300' width='19' height='19'></img>";
   }
   
   function redC() {
     let c = document.getElementById("c_dot");
-    c.innerHTML = "🔴";
+    c.innerHTML = "<img src='https://s2.svgbox.net/octicons.svg?ic=dot-fill&color=ff0000' width='19' height='19'></img>";
   }
-
