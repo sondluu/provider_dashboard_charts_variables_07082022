@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart0);
+      function drawChart0() {
+        var data = google.visualization.arrayToDataTable([
+          ['Overall Status', 'Weeks'],
+          ['High Weeks',     {high_weeks}],
+          ['Low Weeks',      {low_weeks}]
+        ]);
+
+        var options = {
+          title: 'Overall Noom Activity Level',
+          backgroundColor: '#EBECFB',
+          pieHole: 0.4,
+          colors: ['#008000', '#FF0000'],
+          pieSliceTextStyle: {
+            color: 'white',
+            fontSize: '9',
+          },
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart0'));
+        chart.draw(data, options);
+      }
+      </script>
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart1);
+      function drawChart1() {
+        var data = google.visualization.arrayToDataTable([
+          ['Phys Status', 'Weeks'],
+          ['High Weeks',     {phys_high}],
+          ['Low Weeks',      {phys_low}]
+        ]);
+
+        var options = {
+          // title: 'My Daily Activities',
+          pieHole: 0.4,
+          colors: ['#008000', '#FF0000'],
+          pieSliceTextStyle: {
+            color: 'white',
+            fontSize: '9',
+          },
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart1'));
+        chart.draw(data, options);
+      }
+      </script>
+
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart2);
+      function drawChart2() {
+        var data = google.visualization.arrayToDataTable([
+          ['Weighin Status', 'Weeks'],
+          ['High Weeks',     {weigh_high}],
+          ['Low Weeks',      {weigh_low}]
+        ]);
+
+        var options = {
+          // title: 'My Daily Activities',
+          pieHole: 0.4,
+          colors: ['#008000', '#FF0000'],
+          pieSliceTextStyle: {
+            color: 'white',
+            fontSize: '9',
+          },
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart2'));
+        chart.draw(data, options);
+      }
+      </script>
+
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart3);
+      function drawChart3() {
+        var data = google.visualization.arrayToDataTable([
+          ['Learn Status', 'Weeks'],
+          ['High Weeks',     {learn_high}],
+          ['Low Weeks',      {learn_low}]
+        ]);
+
+        var options = {
+          // title: 'My Daily Activities',
+          pieHole: 0.4,
+          colors: ['#008000', '#FF0000'],
+          pieSliceTextStyle: {
+            color: 'white',
+            fontSize: '9',
+          },
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart3'));
+        chart.draw(data, options);
+      }
+      </script>
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart4);
+      function drawChart4() {
+        var data = google.visualization.arrayToDataTable([
+          ['Social Status', 'Weeks'],
+          ['High Weeks',     {social_high}],
+          ['Low Weeks',      {social_low}]
+        ]);
+
+        var options = {
+          // title: 'My Daily Activities',
+          pieHole: 0.4,
+          colors: ['#008000', '#FF0000'],
+          pieSliceTextStyle: {
+            color: 'white',
+            fontSize: '9',
+          },
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart4'));
+        chart.draw(data, options);
+      }
+      </script>
+
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Total # weeks', '# Weeks completed'],
+          ['out of 52 wks',  52,      14],
+          ['out of 52 wks',  52,      14]
+        ]);
+
+        var options = {
+          colors: ['#7902CC', 'blue', '#3fc26b'],
+          // title: '{Patient_name} has completed 14 of 52 weeks total',
+          // hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
+          // vAxis: {minValue: 0},
+          // titleTextStyle: {
+          //   color: 'black',
+          //   fontSize: '10',
+          // },
+          orientation: 'vertical',
+          backgroundColor: '#EBECFB',
+          hAxis: {
+            baselineColor: '#EBECFB',
+            textStyle: {
+              color: '#EBECFB',
+            }, 
+            gridlines: {
+              color: 'black',
+              count: 0
+            },
+            maxValue: 52,
+          },
+          vAxis: {
+            textStyle: {
+              color: '#EBECFB',
+            },  
+            viewWindow: {
+              max: 0.52  
+            // legend: {
+            //   position: 'none',
+            // }
+          }},
+          legend: {
+            position: 'none',
+          }
+          // annotations: {
+          //   textStyle: {
+          //     fontName: 'Times-Roman',
+          //     fontSize: 18,
+          //     bold: true,
+          //     italic: true,
+          //     // The color of the text.
+          //     color: '#871b47',
+          //     // The color of the text outline.
+          //     auraColor: '#d799ae',
+          //     // The transparency of the text.
+          //     opacity: 0.8
+          //   }
+          // }
+          
+        };
+
+        var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+
+    
+
+
+</head>
+<body>
+    
+    <main>
+        <div class="container" id="blur">
+            <div class="cards">
+                <div class="card-single1">
+                
+                    <h2>Overall Noom Activity Level</h2>
+                
+                    
+                    <!-- <div id="chart_div" style="width: 100%; height: 75px;"></div> -->
+                    <h5><span class="patient">{patient_name}</span> has completed <span class="week_no">{week_no}</span> out of 52 weeks</h5>
+                    <p id="definitions"><span class="high">🟢 HIGH (H)</span> - score when meeting or exceeding dDPP goals, <span class="low">🔴 LOW (L)</span> - score when not meeting dDPP goals</p>
+                    <div class="engagement-cards">
+                      <div id="donutchart0" style="width: 400px; height: 200px;"></div>
+                        <!-- <div class="engagement-card1">
+                            <h4>LOW Engagement</h3>
+                            <h5 class="engage_no">6 out of 14 weeks</h3>
+                        </div>
+                        <div class="engagement-card2">
+                            <h4>HIGH Engagement</h3>
+                            <h5 class="engage_no">8 out of 14 weeks</h3>
+                        </div> -->
+
+                        
+                    </div>
+
+                    <!-- <p id="high_def"><span class="high">HIGH (H)</span> - score when meeting or exceeding dDPP goals</p>
+                    <p id="low_def"><span class="low">LOW (L)</span> - score when not meeting dDPP goals</p> -->
+                </div>
+
+                <div class="card-single2">
+    
+                    <h2>Patient-logged Data</h2>
+                    
+                    <div class="outcome-cards1">
+                        <div class="outcome1">
+                            <h1><span class="weight">{weight}</span> lbs</h1>
+                            <p>last logged {weight_date}</p>
+                        </div>
+
+                        <div class="outcome2">
+                            <h1><span class="weight_change">{weight_change}</span> lbs 
+                                <!-- <img src="https://s2.svgbox.net/octicons.svg?ic=arrow-up-bold&color=ff0000" width="25" height="25">
+                                <img src="https://s2.svgbox.net/octicons.svg?ic=arrow-down-bold&color=169550" width="25" height="25"> -->
+                            </h1>
+                            <p>weight change from start</p>
+                        </div>
+
+                        <div class="outcome3">
+                            <h1><span class="a1c">{a1c}</span>
+                                <!-- <img src="https://s2.svgbox.net/octicons.svg?ic=arrow-up-bold&color=ff0000" width="25" height="25">
+                                <img src="https://s2.svgbox.net/octicons.svg?ic=arrow-down-bold&color=169550" width="25" height="25"> -->
+                            </h1>
+                            <p>A1c last logged {a1c_date}</p>
+                        </div>
+                    </div>
+
+                    <div class="outcome-cards2">
+                        <div class="outcome4">
+                            <h1><span class="exercise">{exercise_min}</span> min</h1>
+                            <p>Avg weekly exercise</p>
+                        </div>
+
+                        <div class="outcome5">
+                            <h1><span class="steps">{steps}</span> steps</h1>
+                            <p>Avg weekly steps</p>
+                        </div>
+
+                        <div class="outcome6">
+                            <h1><span class="cal">{calorie}</span> cal</h1>
+                            <p>Avg daily cal</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+
+            <h2 class="activity-title">Patient Activity Level by Noom Features</h2>
+
+            <div class="feature-cards1">
+                <div class="feature1">
+                    <div class="feature1-row1">
+                        <div class="feature1-row1-col1">
+                            <h2>Physical Activity</h2>
+                            <p id="instructions">Click below for complete activity level journey</p>
+                            <a href="#" id="phys_view" onclick="toggle_phys()">View journey</a>
+                        </div>
+
+                        <div class="feature1-row1-col2">
+                            <p>engagement with logging step counts via activity tracking device & exercise minutes</p>
+                            <div id="donutchart1" style="width: 400px; height: 200px;"></div>
+                        </div>
+                    </div>
+
+                    
+                    
+                </div>
+
+                <div class="feature2">
+                    <div class="feature2-row2">
+                        <div class="feature2-row2-col1">
+                            <h2>Weigh-in</h2>
+                            <p id="instructions">Click below for complete activity level journey</p>
+                            <a href="#" id="weigh_view" onclick="toggle_weigh()">View journey</a>
+                        </div>
+
+                        <div class="feature2-row2-col2">
+                            <p>engagement with logging weight</p>
+                            <div id="donutchart2" style="width: 400px; height: 200px;"></div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="feature-cards2">
+                <div class="feature3">
+                    <div class="feature3-row1">
+                        <div class="feature3-row1-col1">
+                            <h2>Digital Learning</h2>
+                            <p id="instructions">Click below for complete activity level journey</p>
+                            <a href="#" id="learn_view" onclick="toggle_learn()">View journey</a>
+                        </div>
+
+                        <div class="feature3-row1-col2">
+                            <p>engagement with reading health behavior articles reccomended by Noom</p>
+                            <div id="donutchart3" style="width: 400px; height: 200px;"></div>
+                        </div>
+                    </div>
+
+                    
+                    
+                </div>
+
+                <div class="feature4">
+                    <div class="feature4-row2">
+                        <div class="feature4-row2-col1">
+                            <h2>Social Activity</h2>
+                            <p id="instructions">Click below for complete activity level journey</p>
+                            <a href="#" id="social_view" onclick="toggle_social()">View journey</a>
+                        </div>
+
+                        <div class="feature4-row2-col2">
+                            <p>engagement with in-app communication with Noom coach and peer group </p>
+                            <div id="donutchart4" style="width: 400px; height: 200px;"></div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <div id="popup_phys">
+        <div class="physical-activity">
+            <p><span>PHYSICAL ACTIVITIES</span> : engagement with logging step counts via activity tracking device & exercise minutes</p>
+
+            <table id="phys">
+              <tr id="phys_score">
+                <td></td>
+                <td>H</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>H</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Week No.</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+                <th>13</th>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+                <th>19</th>
+                <th>20</th>
+                <th>21</th>
+                <th>22</th>
+                <th>23</th>
+                <th>24</th>
+                <th>25</th>
+                <th>26</th>
+                <th>27</th>
+                <th>28</th>
+                <th>29</th>
+                <th>30</th>
+                <th>31</th>
+                <th>32</th>
+                <th>33</th>
+                <th>34</th>
+                <th>35</th>
+                <th>36</th>
+                <th>37</th>
+                <th>38</th>
+                <th>39</th>
+                <th>40</th>
+                <th>41</th>
+                <th>42</th>
+                <th>43</th>
+                <th>44</th>
+                <th>45</th>
+                <th>46</th>
+                <th>47</th>
+                <th>48</th>
+                <th>49</th>
+                <th>50</th>
+                <th>51</th>
+                <th>52</th>
+                <th></th>
+              </tr>
+            </table>
+          </div>
+
+          <a href="#" id="phys_view_close" onclick="toggle_phys()">Close</a>
+    
+    </div>
+
+    <div id="popup_learn">
+        <div class="digital-learning">
+            <p><span>DIGITAL LEARNING</span> : engagement with reading health behavior articles reccomended by Noom</p>
+
+            <table id="learn">
+              <tr id="learn_score">
+                <td></td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>H</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Week No.</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+                <th>13</th>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+                <th>19</th>
+                <th>20</th>
+                <th>21</th>
+                <th>22</th>
+                <th>23</th>
+                <th>24</th>
+                <th>25</th>
+                <th>26</th>
+                <th>27</th>
+                <th>28</th>
+                <th>29</th>
+                <th>30</th>
+                <th>31</th>
+                <th>32</th>
+                <th>33</th>
+                <th>34</th>
+                <th>35</th>
+                <th>36</th>
+                <th>37</th>
+                <th>38</th>
+                <th>39</th>
+                <th>40</th>
+                <th>41</th>
+                <th>42</th>
+                <th>43</th>
+                <th>44</th>
+                <th>45</th>
+                <th>46</th>
+                <th>47</th>
+                <th>48</th>
+                <th>49</th>
+                <th>50</th>
+                <th>51</th>
+                <th>52</th>
+                <th></th>
+              </tr>
+            </table>
+          </div>
+          <a href="#" id="phys_view_close" onclick="toggle_learn()">Close</a>
+    </div>
+
+    <div id="popup_weigh">
+        <div class="weigh-in">
+            <p><span>WEIGH-INS</span> : engagement with logging weight</p>
+
+            <table id="weigh">
+              <tr id="weighin_score">
+                <td></td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>H</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Week No.</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+                <th>13</th>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+                <th>19</th>
+                <th>20</th>
+                <th>21</th>
+                <th>22</th>
+                <th>23</th>
+                <th>24</th>
+                <th>25</th>
+                <th>26</th>
+                <th>27</th>
+                <th>28</th>
+                <th>29</th>
+                <th>30</th>
+                <th>31</th>
+                <th>32</th>
+                <th>33</th>
+                <th>34</th>
+                <th>35</th>
+                <th>36</th>
+                <th>37</th>
+                <th>38</th>
+                <th>39</th>
+                <th>40</th>
+                <th>41</th>
+                <th>42</th>
+                <th>43</th>
+                <th>44</th>
+                <th>45</th>
+                <th>46</th>
+                <th>47</th>
+                <th>48</th>
+                <th>49</th>
+                <th>50</th>
+                <th>51</th>
+                <th>52</th>
+                <th></th>
+              </tr>
+            </table>
+          </div>
+          <a href="#" id="weigh_view_close" onclick="toggle_weigh()">Close</a>
+    </div>
+
+    <div id="popup_social">
+        <div class="communication">
+            <p><span>SOCIAL ACTIVITIES</span> : engagement with in-app communication with Noom coach and peer group</p>
+
+            <table id="comm">
+              <tr id="comm_score">
+                <td></td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>H</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td>L</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Week No.</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+                <th>13</th>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+                <th>19</th>
+                <th>20</th>
+                <th>21</th>
+                <th>22</th>
+                <th>23</th>
+                <th>24</th>
+                <th>25</th>
+                <th>26</th>
+                <th>27</th>
+                <th>28</th>
+                <th>29</th>
+                <th>30</th>
+                <th>31</th>
+                <th>32</th>
+                <th>33</th>
+                <th>34</th>
+                <th>35</th>
+                <th>36</th>
+                <th>37</th>
+                <th>38</th>
+                <th>39</th>
+                <th>40</th>
+                <th>41</th>
+                <th>42</th>
+                <th>43</th>
+                <th>44</th>
+                <th>45</th>
+                <th>46</th>
+                <th>47</th>
+                <th>48</th>
+                <th>49</th>
+                <th>50</th>
+                <th>51</th>
+                <th>52</th>
+                <th></th>
+              </tr>
+            </table>
+          </div>
+          <a href="#" id="social_view_close" onclick="toggle_social()">Close</a>
+    </div>
+
+
+
+
+    <script type="text/javascript">
+        function toggle_phys() {
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var popup1 = document.getElementById('popup_phys');
+            popup1.classList.toggle('active');
+        }
+
+
+        function toggle_learn() {
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var popup2 = document.getElementById('popup_learn');
+            popup2.classList.toggle('active');
+        }
+
+
+        function toggle_weigh() {
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var popup3 = document.getElementById('popup_weigh');
+            popup3.classList.toggle('active');
+        }
+
+
+        function toggle_social() {
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var popup4 = document.getElementById('popup_social');
+            popup4.classList.toggle('active');
+        }
+
+    </script>
+
+</body>
+</html>
