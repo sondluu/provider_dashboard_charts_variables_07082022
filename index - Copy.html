@@ -13,71 +13,229 @@
     
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      function drawOverallNoomActivityChart(low_wks, high_wks) {
 
-        // Load the Visualization API and the corechart package.
-        google.charts.load("current", {packages:["corechart"]});
+      high_wks = 7;
+      low_wks = 8;
+       
+       // Load the Visualization API and the corechart package.
+      google.charts.load("current", {packages:["corechart"]});
 
-        // Set a callback to run when the Google Visualization API is loaded.
-        google.charts.setOnLoadCallback(drawChart0);
-        // Callback that creates and populates a data table,
-        // instantiates the pie chart, passes in the data and
-        // draws it.
-        function drawChart0() {
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart0);
 
-            // Create the data table.
-            var data = google.visualization.arrayToDataTable([
-                ['Overall Status', 'Weeks'],
-                ['High Weeks',     high_wks],
-                ['Low Weeks',      low_wks]
-            ]);
-            
-            
-            // Set chart options
-            var options = {
-                title: 'Overall Noom Activity Level',
-                backgroundColor: '#EBECFB',
-                pieHole: 0.4,
-                colors: ['#008000', '#FF0000'],
-                pieSliceTextStyle: {
-                color: 'white',
-                fontSize: '9',
-                },
-            };
-            
-            // Instantiate and draw our chart, passing in some options.
-            var chart = new google.visualization.PieChart(document.getElementById('donutchart0'));
-            chart.draw(data, options);
-        }
-        }
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart0() {
+
+        // Create the data table.
+        var data = google.visualization.arrayToDataTable([
+          ['Overall Status', 'Weeks'],
+          ['High Weeks',     high_wks],
+          ['Low Weeks',      low_wks]
+        ]);
+
+        
+        // Set chart options
+        var options = {
+          title: 'Overall Noom Activity Level',
+          backgroundColor: '#EBECFB',
+          pieHole: 0.4,
+          colors: ['#008000', '#FF0000'],
+          pieSliceTextStyle: {
+            color: 'white',
+            fontSize: '9',
+          },
+        };
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart0'));
+        chart.draw(data, options);
+      }
+      </script>
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart1);
+      function drawChart1() {
+        var data = google.visualization.arrayToDataTable([
+          ['Phys Status', 'Weeks'],
+          ['High Weeks',     {phys_high}],
+          ['Low Weeks',      {phys_low}]
+        ]);
+
+        var options = {
+          // title: 'My Daily Activities',
+          pieHole: 0.4,
+          colors: ['#008000', '#FF0000'],
+          pieSliceTextStyle: {
+            color: 'white',
+            fontSize: '9',
+          },
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart1'));
+        chart.draw(data, options);
+      }
+      </script>
 
 
 
-        function drawPhysicalActivityChart(phys_low_wks, phys_high_wks) {
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart2);
+      function drawChart2() {
+        var data = google.visualization.arrayToDataTable([
+          ['Weighin Status', 'Weeks'],
+          ['High Weeks',     {weigh_high}],
+          ['Low Weeks',      {weigh_low}]
+        ]);
+
+        var options = {
+          // title: 'My Daily Activities',
+          pieHole: 0.4,
+          colors: ['#008000', '#FF0000'],
+          pieSliceTextStyle: {
+            color: 'white',
+            fontSize: '9',
+          },
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart2'));
+        chart.draw(data, options);
+      }
+      </script>
+
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart3);
+      function drawChart3() {
+        var data = google.visualization.arrayToDataTable([
+          ['Learn Status', 'Weeks'],
+          ['High Weeks',     {learn_high}],
+          ['Low Weeks',      {learn_low}]
+        ]);
+
+        var options = {
+          // title: 'My Daily Activities',
+          pieHole: 0.4,
+          colors: ['#008000', '#FF0000'],
+          pieSliceTextStyle: {
+            color: 'white',
+            fontSize: '9',
+          },
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart3'));
+        chart.draw(data, options);
+      }
+      </script>
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart4);
+      function drawChart4() {
+        var data = google.visualization.arrayToDataTable([
+          ['Social Status', 'Weeks'],
+          ['High Weeks',     {social_high}],
+          ['Low Weeks',      {social_low}]
+        ]);
+
+        var options = {
+          // title: 'My Daily Activities',
+          pieHole: 0.4,
+          colors: ['#008000', '#FF0000'],
+          pieSliceTextStyle: {
+            color: 'white',
+            fontSize: '9',
+          },
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart4'));
+        chart.draw(data, options);
+      }
+      </script>
+
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Total # weeks', '# Weeks completed'],
+          ['out of 52 wks',  52,      14],
+          ['out of 52 wks',  52,      14]
+        ]);
+
+        var options = {
+          colors: ['#7902CC', 'blue', '#3fc26b'],
+          // title: '{Patient_name} has completed 14 of 52 weeks total',
+          // hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
+          // vAxis: {minValue: 0},
+          // titleTextStyle: {
+          //   color: 'black',
+          //   fontSize: '10',
+          // },
+          orientation: 'vertical',
+          backgroundColor: '#EBECFB',
+          hAxis: {
+            baselineColor: '#EBECFB',
+            textStyle: {
+              color: '#EBECFB',
+            }, 
+            gridlines: {
+              color: 'black',
+              count: 0
+            },
+            maxValue: 52,
+          },
+          vAxis: {
+            textStyle: {
+              color: '#EBECFB',
+            },  
+            viewWindow: {
+              max: 0.52  
+            // legend: {
+            //   position: 'none',
+            // }
+          }},
+          legend: {
+            position: 'none',
+          }
+          // annotations: {
+          //   textStyle: {
+          //     fontName: 'Times-Roman',
+          //     fontSize: 18,
+          //     bold: true,
+          //     italic: true,
+          //     // The color of the text.
+          //     color: '#871b47',
+          //     // The color of the text outline.
+          //     auraColor: '#d799ae',
+          //     // The transparency of the text.
+          //     opacity: 0.8
+          //   }
+          // }
           
-        }
+        };
 
-        function drawDigitalLearningChart(learn_low_wks, learn_high_wks) {
-
-        }
-
-        function drawWeighInChart(weigh_low_wks, weigh_high_wks) {
-
-        }
-
-        function drawSocialChart(social_low_wks, social_high_wks) {
-          
-        }
-
+        var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
     </script>
 
 
-    <script>
-
-      drawOverallNoomActivityChart({noom_low_wks}, {noom_high_wks});
-      drawAnotherChart(1, 2);
-
-    </script>
 
     
 
@@ -122,7 +280,7 @@
                     
                     <div class="outcome-cards1">
                         <div class="outcome1">
-                            <h1><span class="weight">{weight}</span> lbs</h1>
+                            <h1><span class="weight">150</span> lbs</h1>
                             <p>last logged {weight_date}</p>
                         </div>
 
