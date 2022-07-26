@@ -645,4 +645,20 @@ h5 {
   margin-top: 2.5em;
   font-size: 0.8rem;
 }
+
+#phys_score {
+  display: none;
+}
+
+#learn_score {
+  display: none;
+}
+
+#weighin_score {
+  display: none;
+}
+
+#comm_score {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */

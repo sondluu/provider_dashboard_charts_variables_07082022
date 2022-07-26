@@ -13,6 +13,7 @@
     
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
+
       function drawOverallNoomActivityChart(low_wks, high_wks) {
 
         // Load the Visualization API and the corechart package.
@@ -26,10 +27,10 @@
         function drawChart0() {
 
             // Create the data table.
-            var data = google.visualization.arrayToDataTable([
+            var data0 = google.visualization.arrayToDataTable([
                 ['Overall Status', 'Weeks'],
-                ['High Weeks',     high_wks],
-                ['Low Weeks',      low_wks]
+                ['High Weeks', high_wks],
+                ['Low Weeks', low_wks]
             ]);
             
             
@@ -38,7 +39,7 @@
                 title: 'Overall Noom Activity Level',
                 backgroundColor: '#EBECFB',
                 pieHole: 0.4,
-                colors: ['#008000', '#FF0000'],
+                colors: ['#00893F', '#E91111'],
                 pieSliceTextStyle: {
                 color: 'white',
                 fontSize: '9',
@@ -47,35 +48,149 @@
             
             // Instantiate and draw our chart, passing in some options.
             var chart = new google.visualization.PieChart(document.getElementById('donutchart0'));
-            chart.draw(data, options);
+            chart.draw(data0, options);
         }
-        }
+        };
 
 
 
-        function drawPhysicalActivityChart(phys_low_wks, phys_high_wks) {
+        function drawPhysicalActivityChart(phys_low, phys_high) {
+          google.charts.load("current", {packages:["corechart"]});
+          google.charts.setOnLoadCallback(drawChart1);
+          function drawChart1() {
+            var data1 = google.visualization.arrayToDataTable([
+              ['Phys Status', 'Weeks'],
+              ['High Weeks', phys_high],
+              ['Low Weeks', phys_low]
+            ]);
+
+            var options1 = {
+              // title: 'My Daily Activities',
+              pieHole: 0.4,
+              colors: ['#00893F', '#E91111'],
+              pieSliceTextStyle: {
+                color: 'white',
+                fontSize: '9',
+              },
+            };
+
+            var chart1 = new google.visualization.PieChart(document.getElementById('donutchart1'));
+            chart1.draw(data1, options1);
+          }
+        };
+
+
+
+        function drawWeighInChart(weigh_low, weigh_high) {
+          // Load the Visualization API and the corechart package.
+          google.charts.load("current", {packages:["corechart"]});
+
+            // Set a callback to run when the Google Visualization API is loaded.
+          google.charts.setOnLoadCallback(drawChart2);
+            // Callback that creates and populates a data table,
+            // instantiates the pie chart, passes in the data and
+            // draws it.  
+            function drawChart2() {
+              var data2 = google.visualization.arrayToDataTable([
+                ['Weighin Status', 'Weeks'],
+                ['High Weeks', weigh_high],
+                ['Low Weeks', weigh_low]
+              ]);
+
+              var options2 = {
+                // title: 'My Daily Activities',
+                pieHole: 0.4,
+                colors: ['#00893F', '#E91111'],
+                pieSliceTextStyle: {
+                  color: 'white',
+                  fontSize: '9',
+                },
+              };
+
+              var chart2 = new google.visualization.PieChart(document.getElementById('donutchart2'));
+              chart2.draw(data2, options2);
+            }
+          };
+            
           
-        }
 
-        function drawDigitalLearningChart(learn_low_wks, learn_high_wks) {
+          function drawDigitalLearningChart(learn_low, learn_high) {
+            google.charts.load("current", {packages:["corechart"]});
+            google.charts.setOnLoadCallback(drawChart3);
+            function drawChart3() {
+              var data3 = google.visualization.arrayToDataTable([
+                ['Learn Status', 'Weeks'],
+                ['High Weeks', learn_high],
+                ['Low Weeks', learn_low]
+              ]);
 
-        }
+              var options3 = {
+                // title: 'My Daily Activities',
+                pieHole: 0.4,
+                colors: ['#00893F', '#E91111'],
+                pieSliceTextStyle: {
+                  color: 'white',
+                  fontSize: '9',
+                },
+              };
 
-        function drawWeighInChart(weigh_low_wks, weigh_high_wks) {
+              var chart3 = new google.visualization.PieChart(document.getElementById('donutchart3'));
+              chart3.draw(data3, options3);
+            }
+          };
 
-        }
+      
 
-        function drawSocialChart(social_low_wks, social_high_wks) {
-          
-        }
+        function drawSocialChart(social_low, social_high) {
+          google.charts.load("current", {packages:["corechart"]});
+          google.charts.setOnLoadCallback(drawChart4);
+          function drawChart4() {
+            var data4 = google.visualization.arrayToDataTable([
+              ['Social Status', 'Weeks'],
+              ['High Weeks', social_high],
+              ['Low Weeks', social_low]
+            ]);
+
+            var options4 = {
+              // title: 'My Daily Activities',
+              pieHole: 0.4,
+              colors: ['#00893F', '#E91111'],
+              pieSliceTextStyle: {
+                color: 'white',
+                fontSize: '9',
+              },
+            };
+
+            var chart4 = new google.visualization.PieChart(document.getElementById('donutchart4'));
+            chart4.draw(data4, options4);
+          }
+        };
 
     </script>
 
 
     <script>
+      
+      //declare variables:
+      
+      var noom_low_wks;
+      var noom_high_wks;
+      var physical_low_wks;
+      var physical_high_wks;
+      var weighin_low_wks;
+      var weighin_high_wks;
+      var learn_low_wks;
+      var learn_high_wks;
+      var social_low_wks;
+      var social_high_wks;
 
-      drawOverallNoomActivityChart({noom_low_wks}, {noom_high_wks});
-      drawAnotherChart(1, 2);
+      //callback functions to draw charts by replacing real data into variables in brackets:
+
+      drawOverallNoomActivityChart({noom_low_wks}, {noom_high_wks}); //{noom_low_wks}, {noom_high_wks}
+      drawWeighInChart({weighin_low_wks}, {weighin_high_wks});  //{weighin_low_wks}, {weighin_high_wks}
+      drawPhysicalActivityChart({physical_low_wks}, {physical_high_wks}); 
+      drawDigitalLearningChart({learn_low_wks}, {learn_high_wks}); //{learn_low_wks}, {learn_high_wks}
+      drawSocialChart({social_low_wks}, {social_high_wks}); //{social_low_wks}, {social_high_wks}
 
     </script>
 
